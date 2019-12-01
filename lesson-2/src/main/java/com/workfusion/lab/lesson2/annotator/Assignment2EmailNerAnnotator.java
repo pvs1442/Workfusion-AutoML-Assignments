@@ -6,7 +6,8 @@ package com.workfusion.lab.lesson2.annotator;
 import com.workfusion.vds.sdk.api.nlp.annotator.Annotator;
 import com.workfusion.vds.sdk.api.nlp.model.Document;
 import com.workfusion.vds.sdk.api.nlp.model.NamedEntity;
-
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
 /**
  * Assignment 2
  */
@@ -25,7 +26,14 @@ public class Assignment2EmailNerAnnotator implements Annotator<Document> {
     @Override
     public void process(Document document) {
 
-        //TODO: PUT YOUR CODE HERE
+      Pattern pattern = Pattern.compile(EMAIL_REGEXP);
+      Matcher matcher = pattern.matcher(document.getText());
+      
+      while(matcher.find()) {
+    	  
+    	  document.add(NamedEntity.descriptor().setType(NER_TYPE).setBegin(matcher.start()).setEnd(matcher.end()));
+    	  
+      }
 
     }
 
