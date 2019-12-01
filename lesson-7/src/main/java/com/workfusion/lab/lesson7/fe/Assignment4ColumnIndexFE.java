@@ -10,6 +10,7 @@ import java.util.List;
 import com.workfusion.vds.sdk.api.nlp.fe.Feature;
 import com.workfusion.vds.sdk.api.nlp.fe.FeatureExtractor;
 import com.workfusion.vds.sdk.api.nlp.fe.annotation.FeatureName;
+import com.workfusion.vds.sdk.api.nlp.model.Cell;
 import com.workfusion.vds.sdk.api.nlp.model.Document;
 import com.workfusion.vds.sdk.api.nlp.model.Element;
 
@@ -27,9 +28,11 @@ public class Assignment4ColumnIndexFE<T extends Element> implements FeatureExtra
     @Override
     public Collection<Feature> extract(Document document, T element) {
         List<Feature> result = new ArrayList<>();
+        List<Cell> cells = document.findCovering(Cell.class,element);
+        	for(Cell newCell : cells) {
+            	result.add(new Feature(FEATURE_NAME,newCell.getColumnIndex()));
 
-        // TODO:  PUT YOU CODE HERE
-
+        	}
         return result;
     }
 

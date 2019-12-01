@@ -7,6 +7,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import com.workfusion.lab.lesson8.fe.KeywordsPreviousLineFE;
+import com.workfusion.lab.lesson8.fe.NerAbsolutePositionFE;
+import com.workfusion.lab.lesson8.processing.TotalAmountPostProcessor;
 import com.workfusion.vds.sdk.api.hypermodel.annotation.ModelConfiguration;
 import com.workfusion.vds.sdk.api.hypermodel.annotation.Named;
 import com.workfusion.vds.sdk.api.nlp.annotator.Annotator;
@@ -19,6 +22,9 @@ import com.workfusion.vds.sdk.api.nlp.model.IeDocument;
 import com.workfusion.vds.sdk.api.nlp.model.NamedEntity;
 import com.workfusion.vds.sdk.api.nlp.model.Token;
 import com.workfusion.vds.sdk.api.nlp.processing.Processor;
+import com.workfusion.vds.sdk.nlp.component.annotator.EntityBoundaryAnnotator;
+import com.workfusion.vds.sdk.nlp.component.annotator.ner.BaseRegexNerAnnotator;
+import com.workfusion.vds.sdk.nlp.component.annotator.tokenizer.SplitterTokenAnnotator;
 
 /**
  * The model configuration class.
@@ -56,23 +62,30 @@ public class Assignment1ModelConfiguration {
     public List<Annotator<Document>> getAnnotators(IeConfigurationContext context) {
         List<Annotator<Document>> annotators = new ArrayList<>();
 
-        // TODO:  PUT YOU CODE HERE
+        annotators.add(new SplitterTokenAnnotator(TOKEN_REGEX));
+        annotators.add(new EntityBoundaryAnnotator());
+        annotators.add(BaseRegexNerAnnotator.getJavaPatternRegexNerAnnotator(NER_TYPE_TOTAL_AMOUNT,TOTAL_AMOUNT_REGEX));
 
         return annotators;
     }
 
     @Named("featureExtractors")
     public List<FeatureExtractor<Element>> getFeatureExtractors(IeConfigurationContext context) {
-        List<FeatureExtractor<Element>> featuresExtractors = new ArrayList<>();
-
-        // TODO:  PUT YOU CODE HERE
+        List<FeatureExtractor<Element>> featuresExtractors = new ArrayList<>();		
+        featuresExtractors.add(new NerAbsolutePositionFE());
+        featuresExtractors.add(new KeywordsPreviousLineFE(KEYWORD_SIMILARITY));
 
         return featuresExtractors;
     }
 
     @Named("processors")
     public List<Processor<IeDocument>> getProcessors() {
-        return Arrays.asList();
+    	
+    	List<Processor<IeDocument>> lm = new ArrayList<>();
+    	
+    	lm.add(new TotalAmountPostProcessor());
+    	
+        return lm;
     }
 
 }

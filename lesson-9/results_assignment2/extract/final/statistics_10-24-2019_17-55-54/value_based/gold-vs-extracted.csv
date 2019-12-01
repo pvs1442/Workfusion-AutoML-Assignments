@@ -1,0 +1,185 @@
+FILE_NAME,FIELD_NAME,GOLD,EXTRACTED,RESULT,REASON
+invoice101.html,product,Rustic Silk Coat,Rustic Silk Coat,TP,EXTRACT_MODEL
+invoice101.html,product,Heavy Duty Bronze Lamp,Heavy Duty Bronze Lamp,TP,EXTRACT_MODEL
+invoice101.html,product,Mediocre Bronze Gloves,Mediocre Bronze Gloves,TP,EXTRACT_MODEL
+invoice101.html,product,Mediocre Paper Keyboard,Mediocre Paper Keyboard,TP,EXTRACT_MODEL
+invoice101.html,product,Sleek Wooden Bench,Sleek Wooden Bench,TP,EXTRACT_MODEL
+invoice101.html,product,Rustic Plastic Watch,Rustic Plastic Watch,TP,EXTRACT_MODEL
+invoice101.html,product,Awesome Bronze Clock,Awesome Bronze Clock,TP,EXTRACT_MODEL
+invoice101.html,product,Rustic Bronze Shirt,Rustic Bronze Shirt,TP,EXTRACT_MODEL
+invoice101.html,product,Aerodynamic Iron Hat,Aerodynamic Iron Hat,TP,EXTRACT_MODEL
+invoice101.html,price,360.64 USD,360.64 USD,TP,EXTRACT_RULES
+invoice101.html,price,154.93 USD,154.93 USD,TP,EXTRACT_RULES
+invoice101.html,price,136.54 USD,136.54 USD,TP,EXTRACT_RULES
+invoice101.html,price,402.91 USD,402.91 USD,TP,EXTRACT_RULES
+invoice101.html,price,136.18 USD,136.18 USD,TP,EXTRACT_RULES
+invoice101.html,price,271.98 USD,271.98 USD,TP,EXTRACT_RULES
+invoice101.html,price,340.90 USD,340.90 USD,TP,EXTRACT_RULES
+invoice101.html,price,266.83 USD,266.83 USD,TP,EXTRACT_RULES
+invoice101.html,price,293.62 USD,293.62 USD,TP,EXTRACT_RULES
+invoice101.html,client_name,Mrs. Oma Oma Jast,Mrs. Oma Oma Jast,TP,EXTRACT_MODEL
+invoice125.html,product,Rustic Iron Gloves,Rustic Iron Gloves,TP,EXTRACT_MODEL
+invoice125.html,product,Rustic Aluminum Wallet,Rustic Aluminum Wallet,TP,EXTRACT_MODEL
+invoice125.html,product,Intelligent Wool Bag,Intelligent Wool Bag,TP,EXTRACT_MODEL
+invoice125.html,product,Gorgeous Copper Pants,Gorgeous Copper Pants,TP,EXTRACT_MODEL
+invoice125.html,product,Aerodynamic Plastic Wallet,Aerodynamic Plastic Wallet,TP,EXTRACT_MODEL
+invoice125.html,product,Lightweight Wool Watch,Lightweight Wool Watch,TP,EXTRACT_MODEL
+invoice125.html,product,Sleek Bronze Computer,Sleek Bronze Computer,TP,EXTRACT_MODEL
+invoice125.html,price,48.26 USD,48.26 USD,TP,EXTRACT_RULES
+invoice125.html,price,199.38 USD,199.38 USD,TP,EXTRACT_RULES
+invoice125.html,price,107.84 USD,107.84 USD,TP,EXTRACT_RULES
+invoice125.html,price,453.29 USD,453.29 USD,TP,EXTRACT_RULES
+invoice125.html,price,184.69 USD,184.69 USD,TP,EXTRACT_RULES
+invoice125.html,price,125.27 USD,125.27 USD,TP,EXTRACT_RULES
+invoice125.html,price,432.04 USD,432.04 USD,TP,EXTRACT_RULES
+invoice125.html,client_name,Rita Rita Waters,Rita Rita Waters,TP,EXTRACT_MODEL
+invoice139.html,product,Aerodynamic Linen Knife,Aerodynamic Linen Knife,TP,EXTRACT_MODEL
+invoice139.html,product,Lightweight Paper Chair,Lightweight Paper Chair,TP,EXTRACT_MODEL
+invoice139.html,product,Heavy Duty Rubber Car,Heavy Duty Rubber Car,TP,EXTRACT_MODEL
+invoice139.html,product,Rustic Wooden Table,Rustic Wooden Table,TP,EXTRACT_MODEL
+invoice139.html,product,Enormous Wooden Bench,Enormous Wooden Bench,TP,EXTRACT_MODEL
+invoice139.html,product,Mediocre Granite Hat,Mediocre Granite Hat,TP,EXTRACT_MODEL
+invoice139.html,product,Intelligent Concrete Table,Intelligent Concrete Table,TP,EXTRACT_MODEL
+invoice139.html,product,Durable Silk Gloves,Durable Silk Gloves,TP,EXTRACT_MODEL
+invoice139.html,product,Durable Paper Gloves,Durable Paper Gloves,TP,EXTRACT_MODEL
+invoice139.html,price,383.67 USD,383.67 USD,TP,EXTRACT_RULES
+invoice139.html,price,173.73 USD,173.73 USD,TP,EXTRACT_RULES
+invoice139.html,price,396.74 USD,396.74 USD,TP,EXTRACT_RULES
+invoice139.html,price,439.20 USD,439.20 USD,TP,EXTRACT_RULES
+invoice139.html,price,455.45 USD,455.45 USD,TP,EXTRACT_RULES
+invoice139.html,price,259.81 USD,259.81 USD,TP,EXTRACT_RULES
+invoice139.html,price,183.88 USD,183.88 USD,TP,EXTRACT_RULES
+invoice139.html,price,354.53 USD,354.53 USD,TP,EXTRACT_RULES
+invoice139.html,price,331.79 USD,331.79 USD,TP,EXTRACT_RULES
+invoice139.html,client_name,Brenden Brenden Spencer,Brenden Brenden Spencer,TP,EXTRACT_MODEL
+invoice144.html,product,Mediocre Steel Shirt,Mediocre Steel Shirt,TP,EXTRACT_MODEL
+invoice144.html,product,Aerodynamic Linen Table,Aerodynamic Linen Table,TP,EXTRACT_MODEL
+invoice144.html,product,Practical Leather Hat,Practical Leather Hat,TP,EXTRACT_MODEL
+invoice144.html,product,Durable Concrete Keyboard,Durable Concrete Keyboard,TP,EXTRACT_MODEL
+invoice144.html,price,460.33 USD,460.33 USD,TP,EXTRACT_RULES
+invoice144.html,price,73.30 USD,73.30 USD,TP,EXTRACT_RULES
+invoice144.html,price,194.75 USD,194.75 USD,TP,EXTRACT_RULES
+invoice144.html,price,110.81 USD,110.81 USD,TP,EXTRACT_RULES
+invoice144.html,client_name,Kaela Kaela Jacobi,Kaela Kaela Jacobi,TP,EXTRACT_MODEL
+invoice147.html,product,Practical Rubber Clock,Practical Rubber Clock,TP,EXTRACT_MODEL
+invoice147.html,product,Intelligent Rubber Hat,Intelligent Rubber Hat,TP,EXTRACT_MODEL
+invoice147.html,product,Small Leather Gloves,Small Leather Gloves,TP,EXTRACT_MODEL
+invoice147.html,product,Intelligent Bronze Plate,Intelligent Bronze Plate,TP,EXTRACT_MODEL
+invoice147.html,product,Mediocre Copper Hat,Mediocre Copper Hat,TP,EXTRACT_MODEL
+invoice147.html,product,Incredible Plastic Watch,Incredible Plastic Watch,TP,EXTRACT_MODEL
+invoice147.html,price,359.37 USD,359.37 USD,TP,EXTRACT_RULES
+invoice147.html,price,210.55 USD,210.55 USD,TP,EXTRACT_RULES
+invoice147.html,price,372.88 USD,372.88 USD,TP,EXTRACT_RULES
+invoice147.html,price,98.74 USD,98.74 USD,TP,EXTRACT_RULES
+invoice147.html,price,113.51 USD,113.51 USD,TP,EXTRACT_RULES
+invoice147.html,price,342.47 USD,342.47 USD,TP,EXTRACT_RULES
+invoice147.html,client_name,Ethyl Ethyl Gerlach,Ethyl Ethyl Gerlach,TP,EXTRACT_MODEL
+invoice155.html,product,Practical Wooden Plate,Practical Wooden Plate,TP,EXTRACT_MODEL
+invoice155.html,product,Durable Iron Clock,Durable Iron Clock,TP,EXTRACT_MODEL
+invoice155.html,product,Lightweight Aluminum Keyboard,Lightweight Aluminum Keyboard,TP,EXTRACT_MODEL
+invoice155.html,product,Synergistic Copper Computer,Synergistic Copper Computer,TP,EXTRACT_MODEL
+invoice155.html,product,Synergistic Paper Knife,Synergistic Paper Knife,TP,EXTRACT_MODEL
+invoice155.html,product,Gorgeous Iron Hat,Gorgeous Iron Hat,TP,EXTRACT_MODEL
+invoice155.html,price,408.62 USD,408.62 USD,TP,EXTRACT_RULES
+invoice155.html,price,118.62 USD,118.62 USD,TP,EXTRACT_RULES
+invoice155.html,price,308.03 USD,308.03 USD,TP,EXTRACT_RULES
+invoice155.html,price,497.12 USD,497.12 USD,TP,EXTRACT_RULES
+invoice155.html,price,69.23 USD,69.23 USD,TP,EXTRACT_RULES
+invoice155.html,price,468.52 USD,468.52 USD,TP,EXTRACT_RULES
+invoice155.html,client_name,Amani Amani Carroll,Amani Amani Carroll,TP,EXTRACT_MODEL
+invoice16.html,product,Rustic Wool Gloves,Rustic Wool Gloves,TP,EXTRACT_MODEL
+invoice16.html,product,Incredible Concrete Shoes,Incredible Concrete Shoes,TP,EXTRACT_MODEL
+invoice16.html,product,Mediocre Cotton Lamp,Mediocre Cotton Lamp,TP,EXTRACT_MODEL
+invoice16.html,product,Gorgeous Rubber Chair,Gorgeous Rubber Chair,TP,EXTRACT_MODEL
+invoice16.html,product,Gorgeous Paper Chair,Gorgeous Paper Chair,TP,EXTRACT_MODEL
+invoice16.html,price,451.77 USD,451.77 USD,TP,EXTRACT_RULES
+invoice16.html,price,19.96 USD,19.96 USD,TP,EXTRACT_RULES
+invoice16.html,price,57.55 USD,57.55 USD,TP,EXTRACT_RULES
+invoice16.html,price,243.89 USD,243.89 USD,TP,EXTRACT_RULES
+invoice16.html,price,411.85 USD,411.85 USD,TP,EXTRACT_RULES
+invoice16.html,client_name,Mr. Monica Monica McLaughlin,Mr. Monica Monica McLaughlin,TP,EXTRACT_MODEL
+invoice163.html,product,Small Bronze Chair,Small Bronze Chair,TP,EXTRACT_MODEL
+invoice163.html,product,Heavy Duty Steel Plate,Heavy Duty Steel Plate,TP,EXTRACT_MODEL
+invoice163.html,product,Lightweight Marble Car,Lightweight Marble Car,TP,EXTRACT_MODEL
+invoice163.html,product,Aerodynamic Steel Bench,Aerodynamic Steel Bench,TP,EXTRACT_MODEL
+invoice163.html,product,Practical Iron Table,Practical Iron Table,TP,EXTRACT_MODEL
+invoice163.html,product,Sleek Linen Clock,Sleek Linen Clock,TP,EXTRACT_MODEL
+invoice163.html,product,Aerodynamic Plastic Pants,Aerodynamic Plastic Pants,TP,EXTRACT_MODEL
+invoice163.html,product,Small Linen Lamp,Small Linen Lamp,TP,EXTRACT_MODEL
+invoice163.html,price,337.59 USD,337.59 USD,TP,EXTRACT_RULES
+invoice163.html,price,57.13 USD,57.13 USD,TP,EXTRACT_RULES
+invoice163.html,price,271.17 USD,271.17 USD,TP,EXTRACT_RULES
+invoice163.html,price,66.13 USD,66.13 USD,TP,EXTRACT_RULES
+invoice163.html,price,187.47 USD,187.47 USD,TP,EXTRACT_RULES
+invoice163.html,price,164.47 USD,164.47 USD,TP,EXTRACT_RULES
+invoice163.html,price,111.55 USD,111.55 USD,TP,EXTRACT_RULES
+invoice163.html,price,199.41 USD,199.41 USD,TP,EXTRACT_RULES
+invoice163.html,client_name,Carlie Carlie Ziemann Jr.,Carlie Carlie Ziemann Jr.,TP,EXTRACT_MODEL
+invoice172.html,product,Awesome Concrete Coat,Awesome Concrete Coat,TP,EXTRACT_MODEL
+invoice172.html,product,Synergistic Linen Knife,Synergistic Linen Knife,TP,EXTRACT_MODEL
+invoice172.html,price,283.91 USD,283.91 USD,TP,EXTRACT_RULES
+invoice172.html,price,84.60 USD,84.60 USD,TP,EXTRACT_RULES
+invoice172.html,client_name,Emilio Emilio Champlin,Emilio Emilio Champlin,TP,EXTRACT_MODEL
+invoice181.html,product,Rustic Rubber Pants,Rustic Rubber Pants,TP,EXTRACT_MODEL
+invoice181.html,product,Gorgeous Wooden Chair,Gorgeous Wooden Chair,TP,EXTRACT_MODEL
+invoice181.html,product,Aerodynamic Iron Coat,Aerodynamic Iron Coat,TP,EXTRACT_MODEL
+invoice181.html,product,Synergistic Paper Car,Synergistic Paper Car,TP,EXTRACT_MODEL
+invoice181.html,product,Enormous Granite Keyboard,Enormous Granite Keyboard,TP,EXTRACT_MODEL
+invoice181.html,product,Rustic Plastic Bench,Rustic Plastic Bench,TP,EXTRACT_MODEL
+invoice181.html,product,Incredible Cotton Coat,Incredible Cotton Coat,TP,EXTRACT_MODEL
+invoice181.html,product,Incredible Bronze Pants,Incredible Bronze Pants,TP,EXTRACT_MODEL
+invoice181.html,product,Heavy Duty Paper Coat,Heavy Duty Paper Coat,TP,EXTRACT_MODEL
+invoice181.html,price,253.61 USD,253.61 USD,TP,EXTRACT_RULES
+invoice181.html,price,152.07 USD,152.07 USD,TP,EXTRACT_RULES
+invoice181.html,price,103.10 USD,103.10 USD,TP,EXTRACT_RULES
+invoice181.html,price,414.29 USD,414.29 USD,TP,EXTRACT_RULES
+invoice181.html,price,226.08 USD,226.08 USD,TP,EXTRACT_RULES
+invoice181.html,price,317.66 USD,317.66 USD,TP,EXTRACT_RULES
+invoice181.html,price,60.41 USD,60.41 USD,TP,EXTRACT_RULES
+invoice181.html,price,460.42 USD,460.42 USD,TP,EXTRACT_RULES
+invoice181.html,price,51.92 USD,51.92 USD,TP,EXTRACT_RULES
+invoice181.html,client_name,Ransom Ransom Little,Ransom Ransom Little,TP,EXTRACT_MODEL
+invoice185.html,product,Rustic Rubber Bag,Rustic Rubber Bag,TP,EXTRACT_MODEL
+invoice185.html,product,Ergonomic Silk Shoes,Ergonomic Silk Shoes,TP,EXTRACT_MODEL
+invoice185.html,product,Gorgeous Granite Car,Gorgeous Granite Car,TP,EXTRACT_MODEL
+invoice185.html,product,Synergistic Aluminum Shirt,Synergistic Aluminum Shirt,TP,EXTRACT_MODEL
+invoice185.html,product,Gorgeous Wool Bottle,Gorgeous Wool Bottle,TP,EXTRACT_MODEL
+invoice185.html,price,251.03 USD,251.03 USD,TP,EXTRACT_RULES
+invoice185.html,price,304.42 USD,304.42 USD,TP,EXTRACT_RULES
+invoice185.html,price,448.86 USD,448.86 USD,TP,EXTRACT_RULES
+invoice185.html,price,191.39 USD,191.39 USD,TP,EXTRACT_RULES
+invoice185.html,price,191.18 USD,191.18 USD,TP,EXTRACT_RULES
+invoice185.html,client_name,Mrs. Josefa Josefa Herman,Mrs. Josefa Josefa Herman,TP,EXTRACT_MODEL
+invoice186.html,product,Lightweight Copper Plate,Lightweight Copper Plate,TP,EXTRACT_MODEL
+invoice186.html,product,Intelligent Plastic Keyboard,Intelligent Plastic Keyboard,TP,EXTRACT_MODEL
+invoice186.html,product,Synergistic Concrete Table,Synergistic Concrete Table,TP,EXTRACT_MODEL
+invoice186.html,price,284.21 USD,284.21 USD,TP,EXTRACT_RULES
+invoice186.html,price,325.60 USD,325.60 USD,TP,EXTRACT_RULES
+invoice186.html,price,31.90 USD,31.90 USD,TP,EXTRACT_RULES
+invoice186.html,client_name,Scottie Scottie Collins IV,Scottie Scottie Collins IV,TP,EXTRACT_MODEL
+invoice189.html,product,Heavy Duty Wool Bench,Heavy Duty Wool Bench,TP,EXTRACT_MODEL
+invoice189.html,product,Aerodynamic Bronze Computer,Aerodynamic Bronze Computer,TP,EXTRACT_MODEL
+invoice189.html,product,Durable Iron Lamp,Durable Iron Lamp,TP,EXTRACT_MODEL
+invoice189.html,product,Enormous Paper Chair,Enormous Paper Chair,TP,EXTRACT_MODEL
+invoice189.html,product,Heavy Duty Rubber Knife,Heavy Duty Rubber Knife,TP,EXTRACT_MODEL
+invoice189.html,product,Ergonomic Linen Hat,Ergonomic Linen Hat,TP,EXTRACT_MODEL
+invoice189.html,product,Lightweight Paper Keyboard,Lightweight Paper Keyboard,TP,EXTRACT_MODEL
+invoice189.html,price,379.28 USD,379.28 USD,TP,EXTRACT_RULES
+invoice189.html,price,292.64 USD,292.64 USD,TP,EXTRACT_RULES
+invoice189.html,price,113.14 USD,113.14 USD,TP,EXTRACT_RULES
+invoice189.html,price,160.38 USD,160.38 USD,TP,EXTRACT_RULES
+invoice189.html,price,241.70 USD,241.70 USD,TP,EXTRACT_RULES
+invoice189.html,price,84.99 USD,84.99 USD,TP,EXTRACT_RULES
+invoice189.html,price,174.57 USD,174.57 USD,TP,EXTRACT_RULES
+invoice189.html,client_name,Loren Loren Dibbert,Loren Loren Dibbert,TP,EXTRACT_MODEL
+invoice201.html,product,Lightweight Linen Watch,Lightweight Linen Watch,TP,EXTRACT_MODEL
+invoice201.html,product,Aerodynamic Marble Bag,Aerodynamic Marble Bag,TP,EXTRACT_MODEL
+invoice201.html,product,Fantastic Concrete Watch,Fantastic Concrete Watch,TP,EXTRACT_MODEL
+invoice201.html,product,Small Rubber Shirt,Small Rubber Shirt,TP,EXTRACT_MODEL
+invoice201.html,product,Ergonomic Aluminum Bench,Ergonomic Aluminum Bench,TP,EXTRACT_MODEL
+invoice201.html,price,199.02 USD,199.02 USD,TP,EXTRACT_RULES
+invoice201.html,price,49.31 USD,49.31 USD,TP,EXTRACT_RULES
+invoice201.html,price,179.65 USD,179.65 USD,TP,EXTRACT_RULES
+invoice201.html,price,269.61 USD,269.61 USD,TP,EXTRACT_RULES
+invoice201.html,price,287.38 USD,287.38 USD,TP,EXTRACT_RULES
+invoice201.html,client_name,Jonatan Jonatan Hintz,Jonatan Jonatan Hintz,TP,EXTRACT_MODEL

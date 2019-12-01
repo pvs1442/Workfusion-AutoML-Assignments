@@ -1,0 +1,407 @@
+FILE_NAME,FIELD_NAME,GOLD,EXTRACTED,RESULT,REASON
+invoice0.html,product,Enormous Cotton Computer,Enormous Cotton Computer,TP,EXTRACT_MODEL
+invoice0.html,product,Lightweight Linen Lamp,Lightweight Linen Lamp,TP,EXTRACT_MODEL
+invoice0.html,product,Sleek Leather Chair,Sleek Leather Chair,TP,EXTRACT_MODEL
+invoice0.html,product,Awesome Cotton Plate,Awesome Cotton Plate,TP,EXTRACT_MODEL
+invoice0.html,product,Sleek Copper Computer,Sleek Copper Computer,TP,EXTRACT_MODEL
+invoice0.html,price,323.89 USD,$323.89,"FP,FN",FAIL_MODEL
+invoice0.html,price,373.49 USD,$373.49,"FP,FN",FAIL_MODEL
+invoice0.html,price,400.41 USD,$400.41,"FP,FN",FAIL_MODEL
+invoice0.html,price,27.91 USD,$27.91,"FP,FN",FAIL_MODEL
+invoice0.html,price,457.55 USD,$457.55,"FP,FN",FAIL_MODEL
+invoice0.html,client_name,Herminia Herminia Ruecker,Herminia Herminia Ruecker,TP,EXTRACT_MODEL
+invoice103.html,product,Mediocre Marble Table,Mediocre Marble Table,TP,EXTRACT_MODEL
+invoice103.html,price,140.15 USD,$140.15,"FP,FN",FAIL_MODEL
+invoice103.html,client_name,Lacy Lacy Tromp,Lacy Lacy Tromp,TP,EXTRACT_MODEL
+invoice106.html,product,Rustic Silk Computer,Rustic Silk Computer,TP,EXTRACT_MODEL
+invoice106.html,product,Enormous Concrete Watch,Enormous Concrete Watch,TP,EXTRACT_MODEL
+invoice106.html,product,Mediocre Rubber Hat,Mediocre Rubber Hat,TP,EXTRACT_MODEL
+invoice106.html,product,Ergonomic Granite Gloves,Ergonomic Granite Gloves,TP,EXTRACT_MODEL
+invoice106.html,product,Incredible Copper Pants,Incredible Copper Pants,TP,EXTRACT_MODEL
+invoice106.html,product,Incredible Marble Bag,Incredible Marble Bag,TP,EXTRACT_MODEL
+invoice106.html,product,Fantastic Leather Shirt,Fantastic Leather Shirt,TP,EXTRACT_MODEL
+invoice106.html,product,Ergonomic Iron Keyboard,Ergonomic Iron Keyboard,TP,EXTRACT_MODEL
+invoice106.html,price,348.03 USD,$348.03,"FP,FN",FAIL_MODEL
+invoice106.html,price,25.08 USD,$25.08,"FP,FN",FAIL_MODEL
+invoice106.html,price,381.59 USD,$381.59,"FP,FN",FAIL_MODEL
+invoice106.html,price,435.70 USD,$435.70,"FP,FN",FAIL_MODEL
+invoice106.html,price,269.70 USD,$269.70,"FP,FN",FAIL_MODEL
+invoice106.html,price,480.17 USD,$480.17,"FP,FN",FAIL_MODEL
+invoice106.html,price,112.29 USD,$112.29,"FP,FN",FAIL_MODEL
+invoice106.html,price,153.65 USD,$153.65,"FP,FN",FAIL_MODEL
+invoice106.html,client_name,Laila Laila Cormier,Laila Laila Cormier,TP,EXTRACT_MODEL
+invoice107.html,product,Lightweight Granite Car,Lightweight Granite Car,TP,EXTRACT_MODEL
+invoice107.html,product,Rustic Wool Shoes,Rustic Wool Shoes,TP,EXTRACT_MODEL
+invoice107.html,product,Practical Iron Watch,Practical Iron Watch,TP,EXTRACT_MODEL
+invoice107.html,product,Enormous Rubber Plate,Enormous Rubber Plate,TP,EXTRACT_MODEL
+invoice107.html,product,Awesome Aluminum Gloves,Awesome Aluminum Gloves,TP,EXTRACT_MODEL
+invoice107.html,product,Small Cotton Bench,Small Cotton Bench,TP,EXTRACT_MODEL
+invoice107.html,product,Lightweight Wool Knife,Lightweight Wool Knife,TP,EXTRACT_MODEL
+invoice107.html,product,Rustic Aluminum Bench,Rustic Aluminum Bench,TP,EXTRACT_MODEL
+invoice107.html,product,Aerodynamic Plastic Table,Aerodynamic Plastic Table,TP,EXTRACT_MODEL
+invoice107.html,price,148.03 USD,$148.03,"FP,FN",FAIL_MODEL
+invoice107.html,price,345.90 USD,$345.90,"FP,FN",FAIL_MODEL
+invoice107.html,price,387.85 USD,$387.85,"FP,FN",FAIL_MODEL
+invoice107.html,price,429.59 USD,$429.59,"FP,FN",FAIL_MODEL
+invoice107.html,price,450.69 USD,$450.69,"FP,FN",FAIL_MODEL
+invoice107.html,price,103.10 USD,$103.10,"FP,FN",FAIL_MODEL
+invoice107.html,price,27.23 USD,$27.23,"FP,FN",FAIL_MODEL
+invoice107.html,price,313.90 USD,$313.90,"FP,FN",FAIL_MODEL
+invoice107.html,price,294.20 USD,$294.20,"FP,FN",FAIL_MODEL
+invoice107.html,client_name,Laverna Laverna Rodriguez MD,Laverna Laverna Rodriguez MD,TP,EXTRACT_MODEL
+invoice108.html,product,Awesome Marble Hat,Awesome Marble Hat,TP,EXTRACT_MODEL
+invoice108.html,product,Practical Leather Bench,Practical Leather Bench,TP,EXTRACT_MODEL
+invoice108.html,product,Gorgeous Copper Bottle,Gorgeous Copper Bottle,TP,EXTRACT_MODEL
+invoice108.html,product,Synergistic Silk Bottle,Synergistic Silk Bottle,TP,EXTRACT_MODEL
+invoice108.html,product,Lightweight Granite Keyboard,Lightweight Granite Keyboard,TP,EXTRACT_MODEL
+invoice108.html,product,Gorgeous Plastic Shoes,Gorgeous Plastic Shoes,TP,EXTRACT_MODEL
+invoice108.html,price,280.02 USD,$280.02,"FP,FN",FAIL_MODEL
+invoice108.html,price,60.13 USD,$60.13,"FP,FN",FAIL_MODEL
+invoice108.html,price,174.39 USD,$174.39,"FP,FN",FAIL_MODEL
+invoice108.html,price,412.94 USD,$412.94,"FP,FN",FAIL_MODEL
+invoice108.html,price,365.14 USD,$365.14,"FP,FN",FAIL_MODEL
+invoice108.html,price,179.47 USD,$179.47,"FP,FN",FAIL_MODEL
+invoice108.html,client_name,Dr. Rosanna Rosanna Lindgren,Dr. Rosanna Rosanna Lindgren,TP,EXTRACT_MODEL
+invoice113.html,product,Awesome Paper Shirt,Awesome Paper Shirt,TP,EXTRACT_MODEL
+invoice113.html,product,Heavy Duty Copper Table,Heavy Duty Copper Table,TP,EXTRACT_MODEL
+invoice113.html,product,Small Rubber Knife,Small Rubber Knife,TP,EXTRACT_MODEL
+invoice113.html,product,Mediocre Concrete Coat,Mediocre Concrete Coat,TP,EXTRACT_MODEL
+invoice113.html,product,Enormous Rubber Car,Enormous Rubber Car,TP,EXTRACT_MODEL
+invoice113.html,price,150.81 USD,$150.81,"FP,FN",FAIL_MODEL
+invoice113.html,price,186.74 USD,$186.74,"FP,FN",FAIL_MODEL
+invoice113.html,price,214.17 USD,$214.17,"FP,FN",FAIL_MODEL
+invoice113.html,price,164.36 USD,$164.36,"FP,FN",FAIL_MODEL
+invoice113.html,price,89.47 USD,$89.47,"FP,FN",FAIL_MODEL
+invoice113.html,client_name,Erin Erin Stiedemann,Erin Erin Stiedemann,TP,EXTRACT_MODEL
+invoice116.html,product,Intelligent Marble Car,Intelligent Marble Car,TP,EXTRACT_MODEL
+invoice116.html,product,Aerodynamic Leather Computer,Aerodynamic Leather Computer,TP,EXTRACT_MODEL
+invoice116.html,price,185.99 USD,$185.99,"FP,FN",FAIL_MODEL
+invoice116.html,price,269.72 USD,$269.72,"FP,FN",FAIL_MODEL
+invoice116.html,client_name,Marjolaine Marjolaine VonRueden,Marjolaine Marjolaine VonRueden,TP,EXTRACT_MODEL
+invoice118.html,product,Awesome Aluminum Clock,Awesome Aluminum Clock,TP,EXTRACT_MODEL
+invoice118.html,product,Mediocre Copper Wallet,Mediocre Copper Wallet,TP,EXTRACT_MODEL
+invoice118.html,product,Ergonomic Wool Wallet,Ergonomic Wool Wallet,TP,EXTRACT_MODEL
+invoice118.html,product,Awesome Silk Pants,Awesome Silk Pants,TP,EXTRACT_MODEL
+invoice118.html,product,Mediocre Silk Knife,Mediocre Silk Knife,TP,EXTRACT_MODEL
+invoice118.html,product,Synergistic Leather Table,Synergistic Leather Table,TP,EXTRACT_MODEL
+invoice118.html,product,Practical Steel Table,Practical Steel Table,TP,EXTRACT_MODEL
+invoice118.html,product,Aerodynamic Marble Lamp,Aerodynamic Marble Lamp,TP,EXTRACT_MODEL
+invoice118.html,price,494.91 USD,$494.91,"FP,FN",FAIL_MODEL
+invoice118.html,price,496.33 USD,$496.33,"FP,FN",FAIL_MODEL
+invoice118.html,price,285.41 USD,$285.41,"FP,FN",FAIL_MODEL
+invoice118.html,price,194.86 USD,$194.86,"FP,FN",FAIL_MODEL
+invoice118.html,price,91.65 USD,$91.65,"FP,FN",FAIL_MODEL
+invoice118.html,price,249.18 USD,$249.18,"FP,FN",FAIL_MODEL
+invoice118.html,price,162.85 USD,$162.85,"FP,FN",FAIL_MODEL
+invoice118.html,price,278.27 USD,$278.27,"FP,FN",FAIL_MODEL
+invoice118.html,client_name,Noelia Noelia Metz,Noelia Noelia Metz,TP,EXTRACT_MODEL
+invoice122.html,product,Small Cotton Computer,Small Cotton Computer,TP,EXTRACT_MODEL
+invoice122.html,product,Intelligent Steel Keyboard,Intelligent Steel Keyboard,TP,EXTRACT_MODEL
+invoice122.html,product,Mediocre Concrete Hat,Mediocre Concrete Hat,TP,EXTRACT_MODEL
+invoice122.html,price,422.76 USD,$422.76,"FP,FN",FAIL_MODEL
+invoice122.html,price,340.92 USD,$340.92,"FP,FN",FAIL_MODEL
+invoice122.html,price,465.28 USD,$465.28,"FP,FN",FAIL_MODEL
+invoice122.html,client_name,Destinee Destinee Goodwin III,Destinee Destinee Goodwin III,TP,EXTRACT_MODEL
+invoice124.html,product,Intelligent Wooden Plate,Intelligent Wooden Plate,TP,EXTRACT_MODEL
+invoice124.html,product,Heavy Duty Linen Car,Heavy Duty Linen Car,TP,EXTRACT_MODEL
+invoice124.html,product,Rustic Paper Gloves,Rustic Paper Gloves,TP,EXTRACT_MODEL
+invoice124.html,price,426.95 USD,$426.95,"FP,FN",FAIL_MODEL
+invoice124.html,price,203.50 USD,$203.50,"FP,FN",FAIL_MODEL
+invoice124.html,price,19.87 USD,$19.87,"FP,FN",FAIL_MODEL
+invoice124.html,client_name,Annamarie Annamarie Schoen II,Annamarie Annamarie Schoen II,TP,EXTRACT_MODEL
+invoice126.html,product,Aerodynamic Leather Shirt,Aerodynamic Leather Shirt,TP,EXTRACT_MODEL
+invoice126.html,product,Heavy Duty Plastic Car,Heavy Duty Plastic Car,TP,EXTRACT_MODEL
+invoice126.html,product,Ergonomic Bronze Shoes,Ergonomic Bronze Shoes,TP,EXTRACT_MODEL
+invoice126.html,product,Intelligent Rubber Chair,Intelligent Rubber Chair,TP,EXTRACT_MODEL
+invoice126.html,product,Mediocre Wool Clock,Mediocre Wool Clock,TP,EXTRACT_MODEL
+invoice126.html,price,133.95 USD,$133.95,"FP,FN",FAIL_MODEL
+invoice126.html,price,18.76 USD,$18.76,"FP,FN",FAIL_MODEL
+invoice126.html,price,285.69 USD,$285.69,"FP,FN",FAIL_MODEL
+invoice126.html,price,267.42 USD,$267.42,"FP,FN",FAIL_MODEL
+invoice126.html,price,190.46 USD,$190.46,"FP,FN",FAIL_MODEL
+invoice126.html,client_name,Hershel Hershel Kilback PhD,Hershel Hershel Kilback PhD,TP,EXTRACT_MODEL
+invoice128.html,product,Ergonomic Rubber Lamp,Ergonomic Rubber Lamp,TP,EXTRACT_MODEL
+invoice128.html,product,Incredible Marble Hat,Incredible Marble Hat,TP,EXTRACT_MODEL
+invoice128.html,product,Synergistic Bronze Gloves,Synergistic Bronze Gloves,TP,EXTRACT_MODEL
+invoice128.html,product,Lightweight Marble Gloves,Lightweight Marble Gloves,TP,EXTRACT_MODEL
+invoice128.html,product,Heavy Duty Aluminum Plate,Heavy Duty Aluminum Plate,TP,EXTRACT_MODEL
+invoice128.html,product,Gorgeous Rubber Keyboard,Gorgeous Rubber Keyboard,TP,EXTRACT_MODEL
+invoice128.html,product,Intelligent Linen Pants,Intelligent Linen Pants,TP,EXTRACT_MODEL
+invoice128.html,product,Ergonomic Bronze Knife,Ergonomic Bronze Knife,TP,EXTRACT_MODEL
+invoice128.html,price,50.93 USD,$50.93,"FP,FN",FAIL_MODEL
+invoice128.html,price,138.06 USD,$138.06,"FP,FN",FAIL_MODEL
+invoice128.html,price,224.65 USD,$224.65,"FP,FN",FAIL_MODEL
+invoice128.html,price,220.51 USD,$220.51,"FP,FN",FAIL_MODEL
+invoice128.html,price,97.71 USD,$97.71,"FP,FN",FAIL_MODEL
+invoice128.html,price,257.42 USD,$257.42,"FP,FN",FAIL_MODEL
+invoice128.html,price,300.97 USD,$300.97,"FP,FN",FAIL_MODEL
+invoice128.html,price,139.74 USD,$139.74,"FP,FN",FAIL_MODEL
+invoice128.html,client_name,Adell Adell Lind,Adell Adell Lind,TP,EXTRACT_MODEL
+invoice129.html,product,Aerodynamic Concrete Keyboard,Aerodynamic Concrete Keyboard,TP,EXTRACT_MODEL
+invoice129.html,product,Incredible Paper Keyboard,Incredible Paper Keyboard,TP,EXTRACT_MODEL
+invoice129.html,product,Synergistic Silk Bench,Synergistic Silk Bench,TP,EXTRACT_MODEL
+invoice129.html,price,369.44 USD,$369.44,"FP,FN",FAIL_MODEL
+invoice129.html,price,201.16 USD,$201.16,"FP,FN",FAIL_MODEL
+invoice129.html,price,126.02 USD,$126.02,"FP,FN",FAIL_MODEL
+invoice129.html,client_name,Mrs. Braulio Braulio Rath,Mrs. Braulio Braulio Rath,TP,EXTRACT_MODEL
+invoice131.html,product,Sleek Concrete Computer,Sleek Concrete Computer,TP,EXTRACT_MODEL
+invoice131.html,product,Gorgeous Steel Pants,Gorgeous Steel Pants,TP,EXTRACT_MODEL
+invoice131.html,product,Durable Steel Car,Durable Steel Car,TP,EXTRACT_MODEL
+invoice131.html,product,Gorgeous Granite Bag,Gorgeous Granite Bag,TP,EXTRACT_MODEL
+invoice131.html,product,Gorgeous Plastic Bottle,Gorgeous Plastic Bottle,TP,EXTRACT_MODEL
+invoice131.html,product,Durable Paper Wallet,Durable Paper Wallet,TP,EXTRACT_MODEL
+invoice131.html,price,172.29 USD,$172.29,"FP,FN",FAIL_MODEL
+invoice131.html,price,184.92 USD,$184.92,"FP,FN",FAIL_MODEL
+invoice131.html,price,294.20 USD,$294.20,"FP,FN",FAIL_MODEL
+invoice131.html,price,296.54 USD,$296.54,"FP,FN",FAIL_MODEL
+invoice131.html,price,186.11 USD,$186.11,"FP,FN",FAIL_MODEL
+invoice131.html,price,496.31 USD,$496.31,"FP,FN",FAIL_MODEL
+invoice131.html,client_name,June June Harvey Sr.,June June Harvey Sr.,TP,EXTRACT_MODEL
+invoice135.html,product,Durable Steel Bag,Durable Steel Bag,TP,EXTRACT_MODEL
+invoice135.html,product,Small Silk Shoes,Small Silk Shoes,TP,EXTRACT_MODEL
+invoice135.html,product,Mediocre Plastic Coat,Mediocre Plastic Coat,TP,EXTRACT_MODEL
+invoice135.html,product,Awesome Granite Keyboard,Awesome Granite Keyboard,TP,EXTRACT_MODEL
+invoice135.html,product,Synergistic Bronze Computer,Synergistic Bronze Computer,TP,EXTRACT_MODEL
+invoice135.html,product,Lightweight Plastic Wallet,Lightweight Plastic Wallet,TP,EXTRACT_MODEL
+invoice135.html,product,Heavy Duty Wooden Shoes,Heavy Duty Wooden Shoes,TP,EXTRACT_MODEL
+invoice135.html,product,Aerodynamic Granite Bottle,Aerodynamic Granite Bottle,TP,EXTRACT_MODEL
+invoice135.html,price,31.78 USD,$31.78,"FP,FN",FAIL_MODEL
+invoice135.html,price,474.06 USD,$474.06,"FP,FN",FAIL_MODEL
+invoice135.html,price,61.39 USD,$61.39,"FP,FN",FAIL_MODEL
+invoice135.html,price,426.72 USD,$426.72,"FP,FN",FAIL_MODEL
+invoice135.html,price,174.82 USD,$174.82,"FP,FN",FAIL_MODEL
+invoice135.html,price,494.67 USD,$494.67,"FP,FN",FAIL_MODEL
+invoice135.html,price,20.08 USD,$20.08,"FP,FN",FAIL_MODEL
+invoice135.html,price,165.75 USD,$165.75,"FP,FN",FAIL_MODEL
+invoice135.html,client_name,Dean Dean Collins,Dean Dean Collins,TP,EXTRACT_MODEL
+invoice136.html,product,Intelligent Wooden Plate,Intelligent Wooden Plate,TP,EXTRACT_MODEL
+invoice136.html,product,Synergistic Rubber Shirt,Synergistic Rubber Shirt,TP,EXTRACT_MODEL
+invoice136.html,product,Aerodynamic Linen Shirt,Aerodynamic Linen Shirt,TP,EXTRACT_MODEL
+invoice136.html,product,Synergistic Cotton Shirt,Synergistic Cotton Shirt,TP,EXTRACT_MODEL
+invoice136.html,product,Small Bronze Hat,Small Bronze Hat,TP,EXTRACT_MODEL
+invoice136.html,product,Fantastic Marble Bottle,Fantastic Marble Bottle,TP,EXTRACT_MODEL
+invoice136.html,price,215.36 USD,$215.36,"FP,FN",FAIL_MODEL
+invoice136.html,price,156.96 USD,$156.96,"FP,FN",FAIL_MODEL
+invoice136.html,price,463.13 USD,$463.13,"FP,FN",FAIL_MODEL
+invoice136.html,price,53.27 USD,$53.27,"FP,FN",FAIL_MODEL
+invoice136.html,price,418.55 USD,$418.55,"FP,FN",FAIL_MODEL
+invoice136.html,price,182.44 USD,$182.44,"FP,FN",FAIL_MODEL
+invoice136.html,client_name,Kadin Kadin Crooks,Kadin Kadin Crooks,TP,EXTRACT_MODEL
+invoice138.html,product,Durable Copper Chair,Durable Copper Chair,TP,EXTRACT_MODEL
+invoice138.html,product,Sleek Wooden Lamp,Sleek Wooden Lamp,TP,EXTRACT_MODEL
+invoice138.html,product,Heavy Duty Wool Hat,Heavy Duty Wool Hat,TP,EXTRACT_MODEL
+invoice138.html,product,Intelligent Rubber Coat,Intelligent Rubber Coat,TP,EXTRACT_MODEL
+invoice138.html,product,Lightweight Leather Pants,Lightweight Leather Pants,TP,EXTRACT_MODEL
+invoice138.html,price,246.09 USD,$246.09,"FP,FN",FAIL_MODEL
+invoice138.html,price,333.82 USD,$333.82,"FP,FN",FAIL_MODEL
+invoice138.html,price,489.14 USD,$489.14,"FP,FN",FAIL_MODEL
+invoice138.html,price,118.14 USD,$118.14,"FP,FN",FAIL_MODEL
+invoice138.html,price,386.72 USD,$386.72,"FP,FN",FAIL_MODEL
+invoice138.html,client_name,Miss Margot Margot Bins,Miss Margot Margot Bins,TP,EXTRACT_MODEL
+invoice14.html,product,Small Copper Gloves,Small Copper Gloves,TP,EXTRACT_MODEL
+invoice14.html,product,Synergistic Plastic Gloves,Synergistic Plastic Gloves,TP,EXTRACT_MODEL
+invoice14.html,price,41.70 USD,$41.70,"FP,FN",FAIL_MODEL
+invoice14.html,price,313.86 USD,$313.86,"FP,FN",FAIL_MODEL
+invoice14.html,client_name,Angus Angus Little,Angus Angus Little,TP,EXTRACT_MODEL
+invoice141.html,product,Durable Rubber Bottle,Durable Rubber Bottle,TP,EXTRACT_MODEL
+invoice141.html,product,Small Iron Wallet,Small Iron Wallet,TP,EXTRACT_MODEL
+invoice141.html,price,253.69 USD,$253.69,"FP,FN",FAIL_MODEL
+invoice141.html,price,45.89 USD,$45.89,"FP,FN",FAIL_MODEL
+invoice141.html,client_name,Vernice Vernice Kshlerin,Vernice Vernice Kshlerin,TP,EXTRACT_MODEL
+invoice149.html,product,Small Marble Coat,Small Marble Coat,TP,EXTRACT_MODEL
+invoice149.html,product,Mediocre Marble Clock,Mediocre Marble Clock,TP,EXTRACT_MODEL
+invoice149.html,product,Fantastic Linen Computer,Fantastic Linen Computer,TP,EXTRACT_MODEL
+invoice149.html,price,33.67 USD,$33.67,"FP,FN",FAIL_MODEL
+invoice149.html,price,78.65 USD,$78.65,"FP,FN",FAIL_MODEL
+invoice149.html,price,12.86 USD,$12.86,"FP,FN",FAIL_MODEL
+invoice149.html,client_name,Clark Clark Fadel DVM,Clark Clark Fadel DVM,TP,EXTRACT_MODEL
+invoice151.html,product,Sleek Plastic Computer,Sleek Plastic Computer,TP,EXTRACT_MODEL
+invoice151.html,product,Aerodynamic Rubber Clock,Aerodynamic Rubber Clock,TP,EXTRACT_MODEL
+invoice151.html,product,Lightweight Paper Keyboard,Lightweight Paper Keyboard,TP,EXTRACT_MODEL
+invoice151.html,product,Practical Bronze Bench,Practical Bronze Bench,TP,EXTRACT_MODEL
+invoice151.html,product,Small Aluminum Pants,Small Aluminum Pants,TP,EXTRACT_MODEL
+invoice151.html,product,Gorgeous Concrete Shirt,Gorgeous Concrete Shirt,TP,EXTRACT_MODEL
+invoice151.html,price,457.98 USD,$457.98,"FP,FN",FAIL_MODEL
+invoice151.html,price,145.91 USD,$145.91,"FP,FN",FAIL_MODEL
+invoice151.html,price,10.35 USD,$10.35,"FP,FN",FAIL_MODEL
+invoice151.html,price,395.83 USD,$395.83,"FP,FN",FAIL_MODEL
+invoice151.html,price,27.59 USD,$27.59,"FP,FN",FAIL_MODEL
+invoice151.html,price,452.69 USD,$452.69,"FP,FN",FAIL_MODEL
+invoice151.html,client_name,Roscoe Roscoe Kreiger,Roscoe Roscoe Kreiger,TP,EXTRACT_MODEL
+invoice159.html,product,Durable Marble Lamp,Durable Marble Lamp,TP,EXTRACT_MODEL
+invoice159.html,product,Sleek Silk Computer,Sleek Silk Computer,TP,EXTRACT_MODEL
+invoice159.html,product,Ergonomic Leather Bag,Ergonomic Leather Bag,TP,EXTRACT_MODEL
+invoice159.html,product,Ergonomic Wool Chair,Ergonomic Wool Chair,TP,EXTRACT_MODEL
+invoice159.html,product,Synergistic Rubber Knife,Synergistic Rubber Knife,TP,EXTRACT_MODEL
+invoice159.html,product,Mediocre Aluminum Gloves,Mediocre Aluminum Gloves,TP,EXTRACT_MODEL
+invoice159.html,price,181.23 USD,$181.23,"FP,FN",FAIL_MODEL
+invoice159.html,price,12.05 USD,$12.05,"FP,FN",FAIL_MODEL
+invoice159.html,price,288.22 USD,$288.22,"FP,FN",FAIL_MODEL
+invoice159.html,price,333.24 USD,$333.24,"FP,FN",FAIL_MODEL
+invoice159.html,price,107.44 USD,$107.44,"FP,FN",FAIL_MODEL
+invoice159.html,price,474.48 USD,$474.48,"FP,FN",FAIL_MODEL
+invoice159.html,client_name,Ozella Ozella Lubowitz,Ozella Ozella Lubowitz,TP,EXTRACT_MODEL
+invoice160.html,product,Awesome Bronze Wallet,Awesome Bronze Wallet,TP,EXTRACT_MODEL
+invoice160.html,price,307.89 USD,$307.89,"FP,FN",FAIL_MODEL
+invoice160.html,client_name,Margaret Margaret Kling,Margaret Margaret Kling,TP,EXTRACT_MODEL
+invoice164.html,product,Practical Granite Bench,Practical Granite Bench,TP,EXTRACT_MODEL
+invoice164.html,product,Gorgeous Iron Bench,Gorgeous Iron Bench,TP,EXTRACT_MODEL
+invoice164.html,price,456.12 USD,$456.12,"FP,FN",FAIL_MODEL
+invoice164.html,price,411.70 USD,$411.70,"FP,FN",FAIL_MODEL
+invoice164.html,client_name,Howell Howell Jerde III,Howell Howell Jerde III,TP,EXTRACT_MODEL
+invoice165.html,product,Heavy Duty Silk Table,Heavy Duty Silk Table,TP,EXTRACT_MODEL
+invoice165.html,product,Rustic Wool Watch,Rustic Wool Watch,TP,EXTRACT_MODEL
+invoice165.html,product,Incredible Marble Shoes,Incredible Marble Shoes,TP,EXTRACT_MODEL
+invoice165.html,product,Fantastic Cotton Watch,Fantastic Cotton Watch,TP,EXTRACT_MODEL
+invoice165.html,product,Mediocre Paper Car,Mediocre Paper Car,TP,EXTRACT_MODEL
+invoice165.html,product,Fantastic Paper Bottle,Fantastic Paper Bottle,TP,EXTRACT_MODEL
+invoice165.html,product,Gorgeous Wooden Coat,Gorgeous Wooden Coat,TP,EXTRACT_MODEL
+invoice165.html,product,Intelligent Copper Wallet,Intelligent Copper Wallet,TP,EXTRACT_MODEL
+invoice165.html,product,Enormous Linen Gloves,Enormous Linen Gloves,TP,EXTRACT_MODEL
+invoice165.html,price,334.95 USD,$334.95,"FP,FN",FAIL_MODEL
+invoice165.html,price,96.45 USD,$96.45,"FP,FN",FAIL_MODEL
+invoice165.html,price,295.06 USD,$295.06,"FP,FN",FAIL_MODEL
+invoice165.html,price,480.01 USD,$480.01,"FP,FN",FAIL_MODEL
+invoice165.html,price,344.10 USD,$344.10,"FP,FN",FAIL_MODEL
+invoice165.html,price,84.15 USD,$84.15,"FP,FN",FAIL_MODEL
+invoice165.html,price,373.17 USD,$373.17,"FP,FN",FAIL_MODEL
+invoice165.html,price,411.30 USD,$411.30,"FP,FN",FAIL_MODEL
+invoice165.html,price,146.21 USD,$146.21,"FP,FN",FAIL_MODEL
+invoice165.html,client_name,Joan Joan Collier,Joan Joan Collier,TP,EXTRACT_MODEL
+invoice17.html,product,Intelligent Steel Pants,Intelligent Steel Pants,TP,EXTRACT_MODEL
+invoice17.html,product,Ergonomic Linen Shirt,Ergonomic Linen Shirt,TP,EXTRACT_MODEL
+invoice17.html,product,Intelligent Granite Bag,Intelligent Granite Bag,TP,EXTRACT_MODEL
+invoice17.html,product,Awesome Bronze Shirt,Awesome Bronze Shirt,TP,EXTRACT_MODEL
+invoice17.html,product,Lightweight Linen Lamp,Lightweight Linen Lamp,TP,EXTRACT_MODEL
+invoice17.html,product,Lightweight Bronze Pants,Lightweight Bronze Pants,TP,EXTRACT_MODEL
+invoice17.html,price,192.48 USD,$192.48,"FP,FN",FAIL_MODEL
+invoice17.html,price,323.84 USD,$323.84,"FP,FN",FAIL_MODEL
+invoice17.html,price,257.23 USD,$257.23,"FP,FN",FAIL_MODEL
+invoice17.html,price,25.07 USD,$25.07,"FP,FN",FAIL_MODEL
+invoice17.html,price,151.69 USD,$151.69,"FP,FN",FAIL_MODEL
+invoice17.html,price,113.87 USD,$113.87,"FP,FN",FAIL_MODEL
+invoice17.html,client_name,Maud Maud Zulauf,Maud Maud Zulauf,TP,EXTRACT_MODEL
+invoice173.html,product,Durable Leather Shirt,Durable Leather Shirt,TP,EXTRACT_MODEL
+invoice173.html,product,Practical Iron Table,Practical Iron Table,TP,EXTRACT_MODEL
+invoice173.html,product,Awesome Linen Bag,Awesome Linen Bag,TP,EXTRACT_MODEL
+invoice173.html,product,Gorgeous Rubber Shoes,Gorgeous Rubber Shoes,TP,EXTRACT_MODEL
+invoice173.html,product,Durable Copper Watch,Durable Copper Watch,TP,EXTRACT_MODEL
+invoice173.html,price,129.38 USD,$129.38,"FP,FN",FAIL_MODEL
+invoice173.html,price,145.96 USD,$145.96,"FP,FN",FAIL_MODEL
+invoice173.html,price,50.42 USD,$50.42,"FP,FN",FAIL_MODEL
+invoice173.html,price,331.79 USD,$331.79,"FP,FN",FAIL_MODEL
+invoice173.html,price,246.40 USD,$246.40,"FP,FN",FAIL_MODEL
+invoice173.html,client_name,Eddie Eddie Walker V,Eddie Eddie Walker V,TP,EXTRACT_MODEL
+invoice174.html,product,Gorgeous Copper Lamp,Gorgeous Copper Lamp,TP,EXTRACT_MODEL
+invoice174.html,product,Rustic Steel Lamp,Rustic Steel Lamp,TP,EXTRACT_MODEL
+invoice174.html,product,Intelligent Leather Pants,Intelligent Leather Pants,TP,EXTRACT_MODEL
+invoice174.html,price,46.46 USD,$46.46,"FP,FN",FAIL_MODEL
+invoice174.html,price,453.53 USD,$453.53,"FP,FN",FAIL_MODEL
+invoice174.html,price,28.64 USD,$28.64,"FP,FN",FAIL_MODEL
+invoice174.html,client_name,Jacynthe Jacynthe Cronin,Jacynthe Jacynthe Cronin,TP,EXTRACT_MODEL
+invoice176.html,product,Lightweight Cotton Hat,Lightweight Cotton Hat,TP,EXTRACT_MODEL
+invoice176.html,product,Rustic Leather Watch,Rustic Leather Watch,TP,EXTRACT_MODEL
+invoice176.html,product,Practical Silk Hat,Practical Silk Hat,TP,EXTRACT_MODEL
+invoice176.html,product,Sleek Aluminum Shirt,Sleek Aluminum Shirt,TP,EXTRACT_MODEL
+invoice176.html,product,Incredible Bronze Pants,Incredible Bronze Pants,TP,EXTRACT_MODEL
+invoice176.html,product,Rustic Leather Car,Rustic Leather Car,TP,EXTRACT_MODEL
+invoice176.html,product,Small Wool Clock,Small Wool Clock,TP,EXTRACT_MODEL
+invoice176.html,product,Incredible Copper Watch,Incredible Copper Watch,TP,EXTRACT_MODEL
+invoice176.html,product,Intelligent Steel Hat,Intelligent Steel Hat,TP,EXTRACT_MODEL
+invoice176.html,price,285.16 USD,$285.16,"FP,FN",FAIL_MODEL
+invoice176.html,price,316.87 USD,$316.87,"FP,FN",FAIL_MODEL
+invoice176.html,price,82.15 USD,$82.15,"FP,FN",FAIL_MODEL
+invoice176.html,price,476.84 USD,$476.84,"FP,FN",FAIL_MODEL
+invoice176.html,price,349.14 USD,$349.14,"FP,FN",FAIL_MODEL
+invoice176.html,price,13.63 USD,$13.63,"FP,FN",FAIL_MODEL
+invoice176.html,price,414.24 USD,$414.24,"FP,FN",FAIL_MODEL
+invoice176.html,price,410.70 USD,$410.70,"FP,FN",FAIL_MODEL
+invoice176.html,price,208.14 USD,$208.14,"FP,FN",FAIL_MODEL
+invoice176.html,client_name,Mrs. Vickie Vickie Hickle,Mrs. Vickie Vickie Hickle,TP,EXTRACT_MODEL
+invoice179.html,product,Durable Leather Chair,Durable Leather Chair,TP,EXTRACT_MODEL
+invoice179.html,product,Enormous Leather Car,Enormous Leather Car,TP,EXTRACT_MODEL
+invoice179.html,product,Ergonomic Granite Gloves,Ergonomic Granite Gloves,TP,EXTRACT_MODEL
+invoice179.html,price,271.56 USD,$271.56,"FP,FN",FAIL_MODEL
+invoice179.html,price,10.64 USD,$10.64,"FP,FN",FAIL_MODEL
+invoice179.html,price,40.18 USD,$40.18,"FP,FN",FAIL_MODEL
+invoice179.html,client_name,Miss Ismael Ismael Brekke,Miss Ismael Ismael Brekke,TP,EXTRACT_MODEL
+invoice18.html,product,Incredible Paper Watch,Incredible Paper Watch,TP,EXTRACT_MODEL
+invoice18.html,product,Sleek Concrete Chair,Sleek Concrete Chair,TP,EXTRACT_MODEL
+invoice18.html,product,Fantastic Bronze Plate,Fantastic Bronze Plate,TP,EXTRACT_MODEL
+invoice18.html,product,Fantastic Silk Clock,Fantastic Silk Clock,TP,EXTRACT_MODEL
+invoice18.html,product,Small Linen Knife,Small Linen Knife,TP,EXTRACT_MODEL
+invoice18.html,product,Incredible Marble Car,Incredible Marble Car,TP,EXTRACT_MODEL
+invoice18.html,price,375.77 USD,$375.77,"FP,FN",FAIL_MODEL
+invoice18.html,price,449.71 USD,$449.71,"FP,FN",FAIL_MODEL
+invoice18.html,price,31.06 USD,$31.06,"FP,FN",FAIL_MODEL
+invoice18.html,price,458.14 USD,$458.14,"FP,FN",FAIL_MODEL
+invoice18.html,price,92.95 USD,$92.95,"FP,FN",FAIL_MODEL
+invoice18.html,price,35.94 USD,$35.94,"FP,FN",FAIL_MODEL
+invoice18.html,client_name,Rico Rico Zieme,Rico Rico Zieme,TP,EXTRACT_MODEL
+invoice180.html,product,Synergistic Cotton Gloves,Synergistic Cotton Gloves,TP,EXTRACT_MODEL
+invoice180.html,product,Durable Iron Gloves,Durable Iron Gloves,TP,EXTRACT_MODEL
+invoice180.html,product,Sleek Concrete Clock,Sleek Concrete Clock,TP,EXTRACT_MODEL
+invoice180.html,product,Rustic Silk Watch,Rustic Silk Watch,TP,EXTRACT_MODEL
+invoice180.html,product,Synergistic Marble Car,Synergistic Marble Car,TP,EXTRACT_MODEL
+invoice180.html,product,Practical Silk Pants,Practical Silk Pants,TP,EXTRACT_MODEL
+invoice180.html,product,Practical Plastic Plate,Practical Plastic Plate,TP,EXTRACT_MODEL
+invoice180.html,price,161.97 USD,$161.97,"FP,FN",FAIL_MODEL
+invoice180.html,price,118.43 USD,$118.43,"FP,FN",FAIL_MODEL
+invoice180.html,price,219.79 USD,$219.79,"FP,FN",FAIL_MODEL
+invoice180.html,price,204.45 USD,$204.45,"FP,FN",FAIL_MODEL
+invoice180.html,price,35.35 USD,$35.35,"FP,FN",FAIL_MODEL
+invoice180.html,price,67.78 USD,$67.78,"FP,FN",FAIL_MODEL
+invoice180.html,price,186.03 USD,$186.03,"FP,FN",FAIL_MODEL
+invoice180.html,client_name,Merlin Merlin Durgan MD,Merlin Merlin Durgan MD,TP,EXTRACT_MODEL
+invoice183.html,product,Small Concrete Bag,Small Concrete Bag,TP,EXTRACT_MODEL
+invoice183.html,product,Awesome Wooden Watch,Awesome Wooden Watch,TP,EXTRACT_MODEL
+invoice183.html,product,Awesome Rubber Car,Awesome Rubber Car,TP,EXTRACT_MODEL
+invoice183.html,product,Rustic Bronze Watch,Rustic Bronze Watch,TP,EXTRACT_MODEL
+invoice183.html,product,Aerodynamic Rubber Plate,Aerodynamic Rubber Plate,TP,EXTRACT_MODEL
+invoice183.html,product,Ergonomic Linen Table,Ergonomic Linen Table,TP,EXTRACT_MODEL
+invoice183.html,product,Practical Paper Car,Practical Paper Car,TP,EXTRACT_MODEL
+invoice183.html,product,Mediocre Bronze Coat,Mediocre Bronze Coat,TP,EXTRACT_MODEL
+invoice183.html,price,296.15 USD,$296.15,"FP,FN",FAIL_MODEL
+invoice183.html,price,215.41 USD,$215.41,"FP,FN",FAIL_MODEL
+invoice183.html,price,270.65 USD,$270.65,"FP,FN",FAIL_MODEL
+invoice183.html,price,247.31 USD,$247.31,"FP,FN",FAIL_MODEL
+invoice183.html,price,179.79 USD,$179.79,"FP,FN",FAIL_MODEL
+invoice183.html,price,214.83 USD,$214.83,"FP,FN",FAIL_MODEL
+invoice183.html,price,472.91 USD,$472.91,"FP,FN",FAIL_MODEL
+invoice183.html,price,342.20 USD,$342.20,"FP,FN",FAIL_MODEL
+invoice183.html,client_name,Nils Nils Lowe II,Nils Nils Lowe II,TP,EXTRACT_MODEL
+invoice187.html,product,Sleek Silk Plate,Sleek Silk Plate,TP,EXTRACT_MODEL
+invoice187.html,product,Rustic Linen Table,Rustic Linen Table,TP,EXTRACT_MODEL
+invoice187.html,product,Mediocre Marble Chair,Mediocre Marble Chair,TP,EXTRACT_MODEL
+invoice187.html,product,Sleek Paper Coat,Sleek Paper Coat,TP,EXTRACT_MODEL
+invoice187.html,product,Fantastic Rubber Watch,Fantastic Rubber Watch,TP,EXTRACT_MODEL
+invoice187.html,price,70.77 USD,$70.77,"FP,FN",FAIL_MODEL
+invoice187.html,price,449.72 USD,$449.72,"FP,FN",FAIL_MODEL
+invoice187.html,price,365.79 USD,$365.79,"FP,FN",FAIL_MODEL
+invoice187.html,price,79.69 USD,$79.69,"FP,FN",FAIL_MODEL
+invoice187.html,price,144.96 USD,$144.96,"FP,FN",FAIL_MODEL
+invoice187.html,client_name,Zora Zora Watsica,Zora Zora Watsica,TP,EXTRACT_MODEL
+invoice192.html,product,Synergistic Granite Plate,Synergistic Granite Plate,TP,EXTRACT_MODEL
+invoice192.html,product,Lightweight Silk Bench,Lightweight Silk Bench,TP,EXTRACT_MODEL
+invoice192.html,product,Intelligent Paper Shoes,Intelligent Paper Shoes,TP,EXTRACT_MODEL
+invoice192.html,product,Rustic Silk Bottle,Rustic Silk Bottle,TP,EXTRACT_MODEL
+invoice192.html,product,Fantastic Copper Computer,Fantastic Copper Computer,TP,EXTRACT_MODEL
+invoice192.html,product,Mediocre Rubber Lamp,Mediocre Rubber Lamp,TP,EXTRACT_MODEL
+invoice192.html,product,Durable Wool Computer,Durable Wool Computer,TP,EXTRACT_MODEL
+invoice192.html,product,Aerodynamic Marble Watch,Aerodynamic Marble Watch,TP,EXTRACT_MODEL
+invoice192.html,product,Small Wooden Hat,Small Wooden Hat,TP,EXTRACT_MODEL
+invoice192.html,price,435.76 USD,$435.76,"FP,FN",FAIL_MODEL
+invoice192.html,price,33.20 USD,$33.20,"FP,FN",FAIL_MODEL
+invoice192.html,price,352.64 USD,$352.64,"FP,FN",FAIL_MODEL
+invoice192.html,price,138.49 USD,$138.49,"FP,FN",FAIL_MODEL
+invoice192.html,price,181.86 USD,$181.86,"FP,FN",FAIL_MODEL
+invoice192.html,price,315.29 USD,$315.29,"FP,FN",FAIL_MODEL
+invoice192.html,price,164.13 USD,$164.13,"FP,FN",FAIL_MODEL
+invoice192.html,price,492.90 USD,$492.90,"FP,FN",FAIL_MODEL
+invoice192.html,price,313.31 USD,$313.31,"FP,FN",FAIL_MODEL
+invoice192.html,client_name,Rylan Rylan Shanahan,Rylan Rylan Shanahan,TP,EXTRACT_MODEL
+invoice20.html,product,Practical Plastic Hat,Practical Plastic Hat,TP,EXTRACT_MODEL
+invoice20.html,product,Rustic Bronze Knife,Rustic Bronze Knife,TP,EXTRACT_MODEL
+invoice20.html,price,294.77 USD,$294.77,"FP,FN",FAIL_MODEL
+invoice20.html,price,370.91 USD,$370.91,"FP,FN",FAIL_MODEL
+invoice20.html,client_name,Ashly Ashly Rogahn,Ashly Ashly Rogahn,TP,EXTRACT_MODEL

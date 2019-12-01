@@ -258,7 +258,8 @@ public class Lesson5Test extends BaseLessonTest {
 
         // Obtains model configuration
         ConfigurationData configurationData = buildConfiguration(Assignment5ModelConfiguration.class);
-
+        String s = configurationData.toString();
+        
         // Obtains defined annotators list.
         List<Annotator> annotators = getAnnotatorsFromConfiguration(configurationData, 3);
 
@@ -292,7 +293,6 @@ public class Lesson5Test extends BaseLessonTest {
 
         // Obtains defined FEs list.
         List<FeatureExtractor> fes = getFEsFromConfiguration(configurationData, 1);
-
         // Gives all features provided by custom FEs
         List<TestTokenFeatures> providedElementFeatures = processFeatures(document, fes);
         checkElementFeatures(providedElementFeatures, "lesson_5_assignment_5_check_fe.json");

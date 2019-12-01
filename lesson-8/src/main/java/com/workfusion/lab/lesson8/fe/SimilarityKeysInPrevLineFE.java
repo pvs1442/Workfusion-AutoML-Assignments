@@ -19,6 +19,10 @@ import com.workfusion.vds.sdk.api.nlp.model.Element;
 import com.workfusion.vds.sdk.api.nlp.model.Line;
 import com.workfusion.vds.sdk.api.nlp.model.Token;
 
+import org.apache.commons.lang3.StringUtils;
+
+import com.workfusion.vds.nlp.similarity.StringSimilarityUtils;
+
 /**
  * Gets similarity of focus annotation to provided keyword
  */
@@ -57,9 +61,13 @@ public class SimilarityKeysInPrevLineFE<T extends Element> implements FeatureExt
     @Override
     public Collection<Feature> extract(Document document, T element) {
         List<Feature> result = new ArrayList<>();
-
-        // TODO:  PUT YOU CODE HERE
-
+  		List<Line> linePrev = document.findPrevious(Line.class,element,1);
+  		if(linePrev.size() != 0) {
+  	    double results = StringSimilarityUtils.cosine(keyword,linePrev.get(0).getText().toString().replaceAll("[()]", "").toLowerCase().trim().split(" ")[0]);
+        if(results > 0.0) {
+        	result.add(new Feature(FEATURE_NAME,results));
+        }
+  		}
         return result;
     }
 

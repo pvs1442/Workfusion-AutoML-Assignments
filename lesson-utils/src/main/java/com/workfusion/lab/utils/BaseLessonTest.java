@@ -203,11 +203,13 @@ public class BaseLessonTest {
     protected List<FeatureExtractor> getFEsFromConfiguration(ConfigurationData configurationData) {
         ListMultimap<String, Dimension> dimensions = configurationData.getParameterSpace().getDimensions();
         // Obtains defined annotators list.
+     
+
         List<FeatureExtractor> fes = null;
         try {
             fes = (List<FeatureExtractor>) getDimensionParameters(dimensions, "FE");
         } catch (Exception e) {
-            log("There is no @Named returns List<FeatureExtractors<Document>> in the ModelConfiguration class.");
+            log("There is no @Named returns List<FeatureExtractors<Document>> in the ModelConfiguration class."+e);
         }
         log("Checking that FEs are defined in @Named methods.");
         assertThat(fes).isNotNull();

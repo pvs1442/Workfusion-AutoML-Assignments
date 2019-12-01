@@ -9,7 +9,9 @@ import java.util.List;
 import com.workfusion.vds.sdk.api.nlp.model.Field;
 import com.workfusion.vds.sdk.api.nlp.model.IeDocument;
 import com.workfusion.vds.sdk.api.nlp.processing.Processor;
+import com.workfusion.vds.nlp.similarity.impl.JaroWinkler;
 
+import java.util.*;
 /**
  * Assignment 6
  */
@@ -28,6 +30,7 @@ public class Assignment6SimilarityPostProcessor implements Processor<IeDocument>
     /**
      * Words list to use.
      */
+    
     private static final List<String> WORDS = Arrays.asList(
             "Aerodynamic",
             "Bench",
@@ -53,9 +56,19 @@ public class Assignment6SimilarityPostProcessor implements Processor<IeDocument>
 
     @Override
     public void process(IeDocument document) {
+       JaroWinkler jw = new JaroWinkler();
+       List<Field> allProductNames = new ArrayList<>(document.findFields(FIELD_NAME));
 
-        //TODO: PUT YOUR CODE HERE
-
+       for(Field fields : allProductNames) {
+    	   String fieldString = fields.getValue();
+    	   
+    	   for(String s : WORDS) {
+    		   
+    		   double score = jw.similarity(s,fieldString);
+    		   if(score >= SIMILARITY_THRESHOLD)
+    			 fields.setValue(s);
+    	   }
+       }
     }
 
 }

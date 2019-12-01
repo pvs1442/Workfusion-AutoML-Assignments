@@ -5,6 +5,8 @@ package com.workfusion.lab.lesson3.fe;
 
 import java.util.Collection;
 import java.util.Collections;
+import java.util.*;
+
 
 import com.workfusion.vds.sdk.api.nlp.annotation.OnDocumentComplete;
 import com.workfusion.vds.sdk.api.nlp.annotation.OnDocumentStart;
@@ -12,7 +14,7 @@ import com.workfusion.vds.sdk.api.nlp.fe.Feature;
 import com.workfusion.vds.sdk.api.nlp.fe.FeatureExtractor;
 import com.workfusion.vds.sdk.api.nlp.model.Document;
 import com.workfusion.vds.sdk.api.nlp.model.Element;
-
+import com.workfusion.vds.sdk.api.nlp.model.Sentence;
 /**
  * Assignment 5
  */
@@ -22,6 +24,10 @@ public class Assignment5FirstInSentenceFE<T extends Element> implements FeatureE
      * Name of {@link Feature} the feature extractor produces.
      */
     private static final String FEATURE_NAME = "firstInSentenceFeature";
+    private List<Sentence> sentence = new ArrayList<>();
+    
+    private List<Integer> first_token_start= new ArrayList<>();
+   
 
     /**
      * The method is called once in the beginning of document processing.
@@ -31,16 +37,29 @@ public class Assignment5FirstInSentenceFE<T extends Element> implements FeatureE
     @OnDocumentStart
     public void documentStart(Document document, Class<T> focusElement) {
 
-        //TODO: PUT YOUR CODE HERE
+    	
+    	 
+         Collection<Sentence> sentences = document.findAll(Sentence.class);
+         sentence.addAll(sentences);
+         for(Sentence sc : sentence)
+         {
+        	
+        	 first_token_start.add(sc.getBegin());
+         }
+        
 
     }
 
     @Override
     public Collection<Feature> extract(Document document, T element) {
 
-        //TODO: PUT YOUR CODE HERE
-
-        return Collections.emptyList();
+       List<Feature> feature = new ArrayList<>();
+       
+       if(first_token_start.contains(element.getBegin())) {
+       
+       feature.add(new Feature(FEATURE_NAME,1.0));
+       }
+        return feature;
     }
 
     /**
@@ -51,7 +70,7 @@ public class Assignment5FirstInSentenceFE<T extends Element> implements FeatureE
     public void documentComplete() {
 
         //TODO: PUT YOUR CODE HERE
-
+    	first_token_start.clear();
     }
 
 }

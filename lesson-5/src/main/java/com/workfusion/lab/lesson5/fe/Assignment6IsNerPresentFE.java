@@ -31,7 +31,9 @@ public class Assignment6IsNerPresentFE<T extends Element> implements FeatureExtr
     public Collection<Feature> extract(Document document, T element) {
         List<Feature> result = new ArrayList<>();
 
-        // TODO:  PUT YOU CODE HERE
+        if(element.getText().contains(EMAIL_EXTENSION)) {
+        	result.add(new Feature(FEATURE_NAME,1.0));
+        }
 
         return result;
     }

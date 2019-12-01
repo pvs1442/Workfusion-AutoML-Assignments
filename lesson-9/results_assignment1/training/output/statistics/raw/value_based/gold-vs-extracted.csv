@@ -1,0 +1,73 @@
+FILE_NAME,FIELD_NAME,GOLD,EXTRACTED,RESULT,REASON
+invoice0.html,date,12/27/70,"December 27, 1970","FP,FN",FAIL_MODEL
+invoice0.html,invoice_number,7650961828,7650961828,TP,EXTRACT_MODEL
+invoice103.html,date,05/20/79,"May 20, 1979","FP,FN",FAIL_MODEL
+invoice103.html,invoice_number,5284060703,5284060703,TP,EXTRACT_MODEL
+invoice106.html,date,04/13/05,"April 13, 2005","FP,FN",FAIL_MODEL
+invoice106.html,invoice_number,3908661436,3908661436,TP,EXTRACT_MODEL
+invoice107.html,date,02/12/78,"February 12, 1978","FP,FN",FAIL_MODEL
+invoice107.html,invoice_number,5015657947,5015657947,TP,EXTRACT_MODEL
+invoice108.html,date,02/17/01,"February 17, 2001","FP,FN",FAIL_MODEL
+invoice108.html,invoice_number,6065016110,6065016110,TP,EXTRACT_MODEL
+invoice113.html,date,01/06/86,"January 06, 1986","FP,FN",FAIL_MODEL
+invoice113.html,invoice_number,0156315916,0156315916,TP,EXTRACT_MODEL
+invoice116.html,date,09/26/14,"September 26, 2014","FP,FN",FAIL_MODEL
+invoice116.html,invoice_number,0530052618,0530052618,TP,EXTRACT_MODEL
+invoice118.html,date,07/13/85,"July 13, 1985","FP,FN",FAIL_MODEL
+invoice118.html,invoice_number,7328351196,7328351196,TP,EXTRACT_MODEL
+invoice122.html,date,08/08/81,"August 08, 1981","FP,FN",FAIL_MODEL
+invoice122.html,invoice_number,4276804949,4276804949,TP,EXTRACT_MODEL
+invoice124.html,date,08/28/09,"August 28, 2009","FP,FN",FAIL_MODEL
+invoice124.html,invoice_number,9082247308,9082247308,TP,EXTRACT_MODEL
+invoice126.html,date,12/01/70,"December 01, 1970","FP,FN",FAIL_MODEL
+invoice126.html,invoice_number,6277876898,6277876898,TP,EXTRACT_MODEL
+invoice128.html,date,11/10/74,"November 10, 1974","FP,FN",FAIL_MODEL
+invoice128.html,invoice_number,8225345211,8225345211,TP,EXTRACT_MODEL
+invoice129.html,date,07/19/07,"July 19, 2007","FP,FN",FAIL_MODEL
+invoice129.html,invoice_number,8351143895,8351143895,TP,EXTRACT_MODEL
+invoice131.html,date,08/23/96,"August 23, 1996","FP,FN",FAIL_MODEL
+invoice131.html,invoice_number,7609390038,7609390038,TP,EXTRACT_MODEL
+invoice135.html,date,11/05/87,"November 05, 1987","FP,FN",FAIL_MODEL
+invoice135.html,invoice_number,0462457393,0462457393,TP,EXTRACT_MODEL
+invoice136.html,date,08/16/71,"August 16, 1971","FP,FN",FAIL_MODEL
+invoice136.html,invoice_number,3461319999,3461319999,TP,EXTRACT_MODEL
+invoice138.html,date,09/27/11,"September 27, 2011","FP,FN",FAIL_MODEL
+invoice138.html,invoice_number,0745199249,0745199249,TP,EXTRACT_MODEL
+invoice14.html,date,01/04/91,"January 04, 1991","FP,FN",FAIL_MODEL
+invoice14.html,invoice_number,6809466842,6809466842,TP,EXTRACT_MODEL
+invoice141.html,date,10/05/17,"October 05, 2017","FP,FN",FAIL_MODEL
+invoice141.html,invoice_number,1772306775,1772306775,TP,EXTRACT_MODEL
+invoice149.html,date,08/10/83,"August 10, 1983","FP,FN",FAIL_MODEL
+invoice149.html,invoice_number,6340372376,6340372376,TP,EXTRACT_MODEL
+invoice151.html,date,05/29/04,"May 29, 2004","FP,FN",FAIL_MODEL
+invoice151.html,invoice_number,9765058358,9765058358,TP,EXTRACT_MODEL
+invoice159.html,date,03/16/78,"March 16, 1978","FP,FN",FAIL_MODEL
+invoice159.html,invoice_number,9577058119,9577058119,TP,EXTRACT_MODEL
+invoice160.html,date,02/16/97,"February 16, 1997","FP,FN",FAIL_MODEL
+invoice160.html,invoice_number,5103866173,5103866173,TP,EXTRACT_MODEL
+invoice164.html,date,09/12/90,"September 12, 1990","FP,FN",FAIL_MODEL
+invoice164.html,invoice_number,9982242803,9982242803,TP,EXTRACT_MODEL
+invoice165.html,date,04/03/07,"April 03, 2007","FP,FN",FAIL_MODEL
+invoice165.html,invoice_number,2545094351,2545094351,TP,EXTRACT_MODEL
+invoice17.html,date,08/21/77,"August 21, 1977","FP,FN",FAIL_MODEL
+invoice17.html,invoice_number,0946851758,0946851758,TP,EXTRACT_MODEL
+invoice173.html,date,01/28/17,"January 28, 2017","FP,FN",FAIL_MODEL
+invoice173.html,invoice_number,5734501383,5734501383,TP,EXTRACT_MODEL
+invoice174.html,date,07/22/89,"July 22, 1989","FP,FN",FAIL_MODEL
+invoice174.html,invoice_number,0238885240,0238885240,TP,EXTRACT_MODEL
+invoice176.html,date,11/14/96,"November 14, 1996","FP,FN",FAIL_MODEL
+invoice176.html,invoice_number,7188263014,7188263014,TP,EXTRACT_MODEL
+invoice179.html,date,01/15/10,"January 15, 2010","FP,FN",FAIL_MODEL
+invoice179.html,invoice_number,9937850024,9937850024,TP,EXTRACT_MODEL
+invoice18.html,date,11/27/00,"November 27, 2000","FP,FN",FAIL_MODEL
+invoice18.html,invoice_number,5156144165,5156144165,TP,EXTRACT_MODEL
+invoice180.html,date,09/27/06,"September 27, 2006","FP,FN",FAIL_MODEL
+invoice180.html,invoice_number,6541102378,6541102378,TP,EXTRACT_MODEL
+invoice183.html,date,11/09/71,"November 09, 1971","FP,FN",FAIL_MODEL
+invoice183.html,invoice_number,1476606211,1476606211,TP,EXTRACT_MODEL
+invoice187.html,date,11/19/95,"November 19, 1995","FP,FN",FAIL_MODEL
+invoice187.html,invoice_number,9238623747,9238623747,TP,EXTRACT_MODEL
+invoice192.html,date,04/16/04,"April 16, 2004","FP,FN",FAIL_MODEL
+invoice192.html,invoice_number,4985860019,4985860019,TP,EXTRACT_MODEL
+invoice20.html,date,09/29/90,"September 29, 1990","FP,FN",FAIL_MODEL
+invoice20.html,invoice_number,0055279390,0055279390,TP,EXTRACT_MODEL

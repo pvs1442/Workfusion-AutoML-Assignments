@@ -1,0 +1,101 @@
+FILE_NAME,FIELD_NAME,GOLD,EXTRACTED,RESULT,REASON
+invoice101.html,product,Rustic Silk Coat,Rustic Silk Coat,TP,EXTRACT_MODEL
+invoice101.html,product,Heavy Duty Bronze Lamp,Heavy Duty Bronze Lamp,TP,EXTRACT_MODEL
+invoice101.html,product,Mediocre Bronze Gloves,Mediocre Bronze Gloves,TP,EXTRACT_MODEL
+invoice101.html,product,Mediocre Paper Keyboard,Mediocre Paper Keyboard,TP,EXTRACT_MODEL
+invoice101.html,product,Sleek Wooden Bench,Sleek Wooden Bench,TP,EXTRACT_MODEL
+invoice101.html,product,Rustic Plastic Watch,Rustic Plastic Watch,TP,EXTRACT_MODEL
+invoice101.html,product,Awesome Bronze Clock,Awesome Bronze Clock,TP,EXTRACT_MODEL
+invoice101.html,product,Rustic Bronze Shirt,Rustic Bronze Shirt,TP,EXTRACT_MODEL
+invoice101.html,product,Aerodynamic Iron Hat,Aerodynamic Iron Hat,TP,EXTRACT_MODEL
+invoice101.html,invoice_number,3778982162,3778982162,TP,EXTRACT_MODEL
+invoice125.html,product,Rustic Iron Gloves,Rustic Iron Gloves,TP,EXTRACT_MODEL
+invoice125.html,product,Rustic Aluminum Wallet,Rustic Aluminum Wallet,TP,EXTRACT_MODEL
+invoice125.html,product,Intelligent Wool Bag,Intelligent Wool Bag,TP,EXTRACT_MODEL
+invoice125.html,product,Gorgeous Copper Pants,Gorgeous Copper Pants,TP,EXTRACT_MODEL
+invoice125.html,product,Aerodynamic Plastic Wallet,Aerodynamic Plastic Wallet,TP,EXTRACT_MODEL
+invoice125.html,product,Lightweight Wool Watch,Lightweight Wool Watch,TP,EXTRACT_MODEL
+invoice125.html,product,Sleek Bronze Computer,Sleek Bronze Computer,TP,EXTRACT_MODEL
+invoice125.html,invoice_number,1060892479,1060892479,TP,EXTRACT_MODEL
+invoice139.html,product,Aerodynamic Linen Knife,Aerodynamic Linen Knife,TP,EXTRACT_MODEL
+invoice139.html,product,Lightweight Paper Chair,Lightweight Paper Chair,TP,EXTRACT_MODEL
+invoice139.html,product,Heavy Duty Rubber Car,Heavy Duty Rubber Car,TP,EXTRACT_MODEL
+invoice139.html,product,Rustic Wooden Table,Rustic Wooden Table,TP,EXTRACT_MODEL
+invoice139.html,product,Enormous Wooden Bench,Enormous Wooden Bench,TP,EXTRACT_MODEL
+invoice139.html,product,Mediocre Granite Hat,Mediocre Granite Hat,TP,EXTRACT_MODEL
+invoice139.html,product,Intelligent Concrete Table,Intelligent Concrete Table,TP,EXTRACT_MODEL
+invoice139.html,product,Durable Silk Gloves,Durable Silk Gloves,TP,EXTRACT_MODEL
+invoice139.html,product,Durable Paper Gloves,Durable Paper Gloves,TP,EXTRACT_MODEL
+invoice139.html,product,,Katelynn Crona,FP,FAIL_MODEL
+invoice139.html,invoice_number,6507378943,6507378943,TP,EXTRACT_MODEL
+invoice144.html,product,Mediocre Steel Shirt,Mediocre Steel Shirt,TP,EXTRACT_MODEL
+invoice144.html,product,Aerodynamic Linen Table,Aerodynamic Linen Table,TP,EXTRACT_MODEL
+invoice144.html,product,Practical Leather Hat,Practical Leather Hat,TP,EXTRACT_MODEL
+invoice144.html,product,Durable Concrete Keyboard,Durable Concrete Keyboard,TP,EXTRACT_MODEL
+invoice144.html,invoice_number,4949499204,4949499204,TP,EXTRACT_MODEL
+invoice147.html,product,Practical Rubber Clock,Practical Rubber Clock,TP,EXTRACT_MODEL
+invoice147.html,product,Intelligent Rubber Hat,Intelligent Rubber Hat,TP,EXTRACT_MODEL
+invoice147.html,product,Small Leather Gloves,Small Leather Gloves,TP,EXTRACT_MODEL
+invoice147.html,product,Intelligent Bronze Plate,Intelligent Bronze Plate,TP,EXTRACT_MODEL
+invoice147.html,product,Mediocre Copper Hat,Mediocre Copper Hat,TP,EXTRACT_MODEL
+invoice147.html,product,Incredible Plastic Watch,Incredible Plastic Watch,TP,EXTRACT_MODEL
+invoice147.html,invoice_number,3531572517,3531572517,TP,EXTRACT_MODEL
+invoice155.html,product,Practical Wooden Plate,Practical Wooden Plate,TP,EXTRACT_MODEL
+invoice155.html,product,Durable Iron Clock,Durable Iron Clock,TP,EXTRACT_MODEL
+invoice155.html,product,Lightweight Aluminum Keyboard,Lightweight Aluminum Keyboard,TP,EXTRACT_MODEL
+invoice155.html,product,Synergistic Copper Computer,Synergistic Copper Computer,TP,EXTRACT_MODEL
+invoice155.html,product,Synergistic Paper Knife,Synergistic Paper Knife,TP,EXTRACT_MODEL
+invoice155.html,product,Gorgeous Iron Hat,Gorgeous Iron Hat,TP,EXTRACT_MODEL
+invoice155.html,invoice_number,2827263107,2827263107,TP,EXTRACT_MODEL
+invoice16.html,product,Rustic Wool Gloves,Rustic Wool Gloves,TP,EXTRACT_MODEL
+invoice16.html,product,Incredible Concrete Shoes,Incredible Concrete Shoes,TP,EXTRACT_MODEL
+invoice16.html,product,Mediocre Cotton Lamp,Mediocre Cotton Lamp,TP,EXTRACT_MODEL
+invoice16.html,product,Gorgeous Rubber Chair,Gorgeous Rubber Chair,TP,EXTRACT_MODEL
+invoice16.html,product,Gorgeous Paper Chair,Gorgeous Paper Chair,TP,EXTRACT_MODEL
+invoice16.html,invoice_number,6594907342,6594907342,TP,EXTRACT_MODEL
+invoice163.html,product,Small Bronze Chair,Small Bronze Chair,TP,EXTRACT_MODEL
+invoice163.html,product,Heavy Duty Steel Plate,Heavy Duty Steel Plate,TP,EXTRACT_MODEL
+invoice163.html,product,Lightweight Marble Car,Lightweight Marble Car,TP,EXTRACT_MODEL
+invoice163.html,product,Aerodynamic Steel Bench,Aerodynamic Steel Bench,TP,EXTRACT_MODEL
+invoice163.html,product,Practical Iron Table,Practical Iron Table,TP,EXTRACT_MODEL
+invoice163.html,product,Sleek Linen Clock,Sleek Linen Clock,TP,EXTRACT_MODEL
+invoice163.html,product,Aerodynamic Plastic Pants,Aerodynamic Plastic Pants,TP,EXTRACT_MODEL
+invoice163.html,product,Small Linen Lamp,Small Linen Lamp,TP,EXTRACT_MODEL
+invoice163.html,invoice_number,0499067578,0499067578,TP,EXTRACT_MODEL
+invoice172.html,product,Awesome Concrete Coat,Awesome Concrete Coat,TP,EXTRACT_MODEL
+invoice172.html,product,Synergistic Linen Knife,Synergistic Linen Knife,TP,EXTRACT_MODEL
+invoice172.html,invoice_number,4081367687,4081367687,TP,EXTRACT_MODEL
+invoice181.html,product,Rustic Rubber Pants,Rustic Rubber Pants,TP,EXTRACT_MODEL
+invoice181.html,product,Gorgeous Wooden Chair,Gorgeous Wooden Chair,TP,EXTRACT_MODEL
+invoice181.html,product,Aerodynamic Iron Coat,Aerodynamic Iron Coat,TP,EXTRACT_MODEL
+invoice181.html,product,Synergistic Paper Car,Synergistic Paper Car,TP,EXTRACT_MODEL
+invoice181.html,product,Enormous Granite Keyboard,Enormous Granite Keyboard,TP,EXTRACT_MODEL
+invoice181.html,product,Rustic Plastic Bench,Rustic Plastic Bench,TP,EXTRACT_MODEL
+invoice181.html,product,Incredible Cotton Coat,Incredible Cotton Coat,TP,EXTRACT_MODEL
+invoice181.html,product,Incredible Bronze Pants,Incredible Bronze Pants,TP,EXTRACT_MODEL
+invoice181.html,product,Heavy Duty Paper Coat,Heavy Duty Paper Coat,TP,EXTRACT_MODEL
+invoice181.html,invoice_number,8150426970,8150426970,TP,EXTRACT_MODEL
+invoice185.html,product,Rustic Rubber Bag,Rustic Rubber Bag,TP,EXTRACT_MODEL
+invoice185.html,product,Ergonomic Silk Shoes,Ergonomic Silk Shoes,TP,EXTRACT_MODEL
+invoice185.html,product,Gorgeous Granite Car,Gorgeous Granite Car,TP,EXTRACT_MODEL
+invoice185.html,product,Synergistic Aluminum Shirt,Synergistic Aluminum Shirt,TP,EXTRACT_MODEL
+invoice185.html,product,Gorgeous Wool Bottle,Gorgeous Wool Bottle,TP,EXTRACT_MODEL
+invoice185.html,invoice_number,2520763010,2520763010,TP,EXTRACT_MODEL
+invoice186.html,product,Lightweight Copper Plate,Lightweight Copper Plate,TP,EXTRACT_MODEL
+invoice186.html,product,Intelligent Plastic Keyboard,Intelligent Plastic Keyboard,TP,EXTRACT_MODEL
+invoice186.html,product,Synergistic Concrete Table,Synergistic Concrete Table,TP,EXTRACT_MODEL
+invoice186.html,invoice_number,7540253933,7540253933,TP,EXTRACT_MODEL
+invoice189.html,product,Heavy Duty Wool Bench,Heavy Duty Wool Bench,TP,EXTRACT_MODEL
+invoice189.html,product,Aerodynamic Bronze Computer,Aerodynamic Bronze Computer,TP,EXTRACT_MODEL
+invoice189.html,product,Durable Iron Lamp,Durable Iron Lamp,TP,EXTRACT_MODEL
+invoice189.html,product,Enormous Paper Chair,Enormous Paper Chair,TP,EXTRACT_MODEL
+invoice189.html,product,Heavy Duty Rubber Knife,Heavy Duty Rubber Knife,TP,EXTRACT_MODEL
+invoice189.html,product,Ergonomic Linen Hat,Ergonomic Linen Hat,TP,EXTRACT_MODEL
+invoice189.html,product,Lightweight Paper Keyboard,Lightweight Paper Keyboard,TP,EXTRACT_MODEL
+invoice189.html,invoice_number,1978672951,1978672951,TP,EXTRACT_MODEL
+invoice201.html,product,Lightweight Linen Watch,Lightweight Linen Watch,TP,EXTRACT_MODEL
+invoice201.html,product,Aerodynamic Marble Bag,Aerodynamic Marble Bag,TP,EXTRACT_MODEL
+invoice201.html,product,Fantastic Concrete Watch,Fantastic Concrete Watch,TP,EXTRACT_MODEL
+invoice201.html,product,Small Rubber Shirt,Small Rubber Shirt,TP,EXTRACT_MODEL
+invoice201.html,product,Ergonomic Aluminum Bench,Ergonomic Aluminum Bench,TP,EXTRACT_MODEL
+invoice201.html,invoice_number,1549306900,1549306900,TP,EXTRACT_MODEL

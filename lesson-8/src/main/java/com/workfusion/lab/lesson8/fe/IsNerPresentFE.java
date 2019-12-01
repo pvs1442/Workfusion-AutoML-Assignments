@@ -41,8 +41,14 @@ public class IsNerPresentFE<T extends Element> implements FeatureExtractor<T> {
     @Override
     public Collection<Feature> extract(Document document, T element) {
         List<Feature> result = new ArrayList<>();
-
-        // TODO:  PUT YOU CODE HERE
+        List<NamedEntity> NM = new ArrayList<>(document.findAll(NamedEntity.class));
+        
+        for(NamedEntity NS : NM) {
+        	if(NS.getText().contains(element.getText())) {
+        		result.add(new Feature(FEATURE_NAME,1.0));
+        	}
+        } 
+       
 
         return result;
     }

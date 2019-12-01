@@ -33,7 +33,7 @@ public class Lesson10Test extends BaseLessonTest {
      * Train the model. Check the training statistics.
      * Execute the model. Check the execution statistics.
      */
-    @Test
+   /* @Test
     public void assignment1() throws Exception {
 
         executeRunner(Assignment1ModelTrainingRunner.class);
@@ -54,7 +54,7 @@ public class Lesson10Test extends BaseLessonTest {
 
         // Check the field statistics
         checkFieldStatistics(executionStatistics, Assignment1ModelTrainingRunner.FIELD_INVOICE_NUMBER, 0.9, 0.6);
-    }
+    }*/
 
     /**
      * Assignment 2

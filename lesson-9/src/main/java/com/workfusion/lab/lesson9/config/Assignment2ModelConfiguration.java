@@ -6,7 +6,7 @@ package com.workfusion.lab.lesson9.config;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+import com.workfusion.lab.lesson5.processing.*;
 import com.workfusion.vds.sdk.api.hypermodel.annotation.ModelConfiguration;
 import com.workfusion.vds.sdk.api.hypermodel.annotation.Named;
 import com.workfusion.vds.sdk.api.nlp.annotator.Annotator;
@@ -18,6 +18,10 @@ import com.workfusion.vds.sdk.api.nlp.model.Field;
 import com.workfusion.vds.sdk.api.nlp.model.IeDocument;
 import com.workfusion.vds.sdk.api.nlp.model.Token;
 import com.workfusion.vds.sdk.api.nlp.processing.Processor;
+import com.workfusion.vds.sdk.nlp.component.annotator.tokenizer.MatcherTokenAnnotator;
+import com.workfusion.vds.sdk.nlp.component.annotator.EntityBoundaryAnnotator;
+import com.workfusion.vds.sdk.nlp.component.annotator.ner.BaseRegexNerAnnotator;
+import com.workfusion.lab.lesson9.fe.*;
 
 /**
  * The model configuration class.
@@ -31,7 +35,7 @@ public class Assignment2ModelConfiguration {
      * Regex pattern to use for matching {@link Token} elements.
      */
     private final static String TOKEN_REGEX = "[\\w@.,$%’-]+";
-
+    private static final String KEYWORD_SIMILARITY = "BILL TO";
     /**
      * Name of {@link Field} representing a client name.
      */
@@ -61,7 +65,26 @@ public class Assignment2ModelConfiguration {
     public List<Annotator<Document>> getAnnotators(IeConfigurationContext context) {
         List<Annotator<Document>> annotators = new ArrayList<>();
 
-        // TODO:  PUT YOU CODE HERE
+        annotators.add(new MatcherTokenAnnotator(TOKEN_REGEX));
+        annotators.add(new EntityBoundaryAnnotator());
+        String type = context.getField().getCode();
+        switch(type) {
+        
+        case  FIELD_PRICE : {
+        	annotators.add(BaseRegexNerAnnotator.getJavaPatternRegexNerAnnotator(FIELD_PRICE,PRICE_REGEX));
+        	break;
+        }
+        case FIELD_CLIENT_NAME : {
+        	annotators.add(BaseRegexNerAnnotator.getJavaPatternRegexNerAnnotator(FIELD_CLIENT_NAME,CLIENT_NAME_REGEX));
+        	break;
+        }
+        case FIELD_PRODUCT : {
+        	annotators.add(BaseRegexNerAnnotator.getJavaPatternRegexNerAnnotator(FIELD_PRODUCT,CLIENT_NAME_REGEX));
+        	break;
+        }
+        
+        }
+        
 
         return annotators;
     }
@@ -69,18 +92,32 @@ public class Assignment2ModelConfiguration {
     @Named("featureExtractors")
     public List<FeatureExtractor<Element>> getFeatureExtractors(IeConfigurationContext context) {
         List<FeatureExtractor<Element>> featuresExtractors = new ArrayList<>();
-
-            // TODO:  PUT YOU CODE HERE
-
+        String type = context.getField().getCode();
+        switch(type) {
+        
+        case  FIELD_PRICE : {
+        	featuresExtractors.add(new Assignment3IsCoveredByNerFE(FIELD_PRICE));
+        	break;
+        }
+        case FIELD_CLIENT_NAME : {
+        	
+        	featuresExtractors.add(new KeywordsPreviousLineFE(KEYWORD_SIMILARITY));    
+        	break;
+        }
+        case FIELD_PRODUCT : {
+        	featuresExtractors.add(new Assignment4ColumnIndexFE());    
+        	break;
+        }
+            
+        }
         return featuresExtractors;
     }
 
     @Named("processors")
     public List<Processor<IeDocument>> getProcessors() {
-
-        // TODO:  PUT YOU CODE HERE (IF NEEDED)
-
-        return Arrays.asList();
+    	List<Processor<IeDocument>> processors = new ArrayList<>();
+    	processors.add(new Assignment5PricePostProcessor());
+        return processors;
     }
 
 }

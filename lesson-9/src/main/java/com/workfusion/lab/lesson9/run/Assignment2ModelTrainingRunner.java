@@ -14,7 +14,7 @@ import com.workfusion.lab.lesson9.model.Assignment2Model;
 import com.workfusion.vds.sdk.api.nlp.configuration.FieldInfo;
 import com.workfusion.vds.sdk.run.ModelRunner;
 import com.workfusion.vds.sdk.run.config.LocalTrainingConfiguration;
-
+import com.workfusion.vds.sdk.api.nlp.configuration.FieldType;
 /**
  * This runner allows you to start model training on your local machine.
  * Paths to training set and output folders, fields configuration are required for the lauch.
@@ -35,12 +35,28 @@ public class Assignment2ModelTrainingRunner {
         System.setProperty("WORKFLOW_LOG_FOLDER", "./logs/");
 
         //TODO Configure input/output
-        Path inputDirPath = Paths.get("PUT YOUR PATH HERE");
-        Path outputDirPath = Paths.get("PUT YOUR PATH HERE");
+        Path inputDirPath = Paths.get(INPUT_DIR_PATH);
+        Path outputDirPath = Paths.get(OUTPUT_DIR_PATH);
 
         //TODO Configure fields according to your use-case
         List<FieldInfo> fields = new ArrayList<>();
-        // TODO:  PUT YOU CODE HERE
+        fields.add(new FieldInfo.Builder("client_name")
+                .type(FieldType.FREE_TEXT)
+                .required(true)
+                .multiValue(false)
+                .build());
+        
+        fields.add(new FieldInfo.Builder("price")
+                .type(FieldType.PRICE)
+                .required(true)
+                .multiValue(true)
+                .build());
+        
+        fields.add(new FieldInfo.Builder("product")
+                .type(FieldType.FREE_TEXT)
+                .required(true)
+                .multiValue(true)
+                .build());
 
         //TODO add parameters if needed.
         Map<String, Object> parameters = new HashMap<>();

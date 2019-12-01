@@ -34,9 +34,18 @@ public class Assignment3IsCoveredByNerFE<T extends Element> implements FeatureEx
     @Override
     public Collection<Feature> extract(Document document, T element) {
         List<Feature> result = new ArrayList<>();
-
-        // TODO:  PUT YOU CODE HERE
-
+        List<NamedEntity> nem = document.findCovering(NamedEntity.class,element);
+        if(nem.size() != 0) {
+        	
+        	if(type == "invoice_number")
+        		result.add(new Feature("invoice_number",1.0));
+        	if(type == "email")
+        		result.add(new Feature("email",1.0));
+        	if(type == "price")
+        		result.add(new Feature("price",1.0));
+        }
+        	
+        	
         return result;
     }
 

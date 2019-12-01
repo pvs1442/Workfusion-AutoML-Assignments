@@ -3,6 +3,9 @@
  */
 package com.workfusion.lab.lesson5.annotator;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import com.workfusion.vds.sdk.api.nlp.annotator.Annotator;
 import com.workfusion.vds.sdk.api.nlp.model.Document;
 import com.workfusion.vds.sdk.api.nlp.model.Sentence;
@@ -20,7 +23,14 @@ public class Assignment1SentenceAnnotator implements Annotator<Document> {
     @Override
     public void process(Document document) {
 
-        //TODO: PUT YOUR CODE HERE
+    	Pattern pattern = Pattern.compile(SENTENCE_REGEXP);
+        Matcher matcher = pattern.matcher(document.getText());
+        int index=0;
+        while(matcher.find()) {
+        	
+        	document.add(Sentence.descriptor().setBegin(index).setEnd(matcher.start()));
+        	index = matcher.end();
+        }
 
     }
 

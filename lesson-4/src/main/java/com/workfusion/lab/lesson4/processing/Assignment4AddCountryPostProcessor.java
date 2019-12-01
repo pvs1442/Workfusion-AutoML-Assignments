@@ -8,7 +8,7 @@ import org.apache.commons.validator.routines.checkdigit.IBANCheckDigit;
 import com.workfusion.vds.sdk.api.nlp.model.Field;
 import com.workfusion.vds.sdk.api.nlp.model.IeDocument;
 import com.workfusion.vds.sdk.api.nlp.processing.Processor;
-
+import java.util.*;
 /**
  * Assignment 4
  */
@@ -32,7 +32,15 @@ public class Assignment4AddCountryPostProcessor implements Processor<IeDocument>
     @Override
     public void process(IeDocument document) {
 
-        //TODO: PUT YOUR CODE HERE
+        List<Field> allFields = new ArrayList<>(document.findFields(FIELD_IBAN));
+        
+        for(Field field : allFields) {
+        	
+        	if(checker.isValid(field.getValue())) {
+        		String countryCode = field.getValue().substring(0,2);
+        		document.add(Field.descriptor().setName(FIELD_COUNTRY).setValue(countryCode).setScore(0.5));
+        	}
+        }
 
     }
 

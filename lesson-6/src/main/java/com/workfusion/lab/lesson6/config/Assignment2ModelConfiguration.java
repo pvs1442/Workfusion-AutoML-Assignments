@@ -11,14 +11,36 @@ import com.workfusion.vds.sdk.api.nlp.fe.Feature;
 import com.workfusion.vds.sdk.api.nlp.fe.FeatureExtractor;
 import com.workfusion.vds.sdk.api.nlp.model.Document;
 import com.workfusion.vds.sdk.api.nlp.model.Element;
-
+import com.workfusion.vds.sdk.api.nlp.configuration.IeConfigurationContext;
+import com.workfusion.vds.sdk.api.nlp.fe.FeatureExtractor;
+import com.workfusion.vds.sdk.api.hypermodel.annotation.Named;
+import java.util.*;
 /**
  * Assignment 2
  */
 @ModelConfiguration
 public class Assignment2ModelConfiguration {
 
-    // TODO:  PUT YOU CODE HERE
+    @Named("featureExtractors")
+    public List<FeatureExtractor> featureExtractor(IeConfigurationContext context){
+    	List<FeatureExtractor> fes = new ArrayList<>();
+    	String type = ""+context.getField().getType();
+    	
+    	switch(type) {
+    	
+    	case "FREE_TEXT" : {
+    		fes.add(new IsAllLettersUpperCase());
+    		
+    		break;
+    	}
+    	case "INVOICE_TYPE" : {
+    		fes.add(new IsOnlyNumberInTokenFE());
+    		
+    		break;
+    	}
+    	}
+    	return fes;
+    }
 
     public static class IsAllLettersUpperCase<T extends Element> implements FeatureExtractor<T> {
 
